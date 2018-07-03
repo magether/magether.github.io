@@ -28,9 +28,12 @@ body {
 header .row>div:nth-child(1)>a img{
 	opacity:0;
 }
-
+#main .menu-wrapper,#main #main-content>div.frame{
+	border: 1px solid #a2a2a2;
+}
 #main .menu-wrapper>.header{
-	background:#505050;
+	background:#e0e0e0;
+	color: #717171;
 	padding:9px 12px;
 }
 
@@ -55,42 +58,25 @@ header #header-bar>.row {
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 	border: none;
+	border-top: 4px solid rgba(255, 255, 255, 0);
 }
 
 @-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
 }
 
 @-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
 }
 
 @keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
 }
 
 #board-info{
