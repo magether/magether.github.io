@@ -184,7 +184,7 @@ header #right-search-form>#right-search-btn{
 #article-list>.article-list-row>.item>.list-title>small.comment-count{
 	padding:0 4px;
 	top:2px;
-	color:#ff74c6;
+	color:#ff7777;
 }
 
 #article-content-wrapper>.header{
@@ -203,7 +203,7 @@ header #right-search-form>#right-search-btn{
 	color:#517a84;
 	white-space:nowrap;
 }
-.fa-heart {
+.favo .fa-heart {
 	opacity: 0.8;
 	color:rgba(0,0,0,0); 
 	vertical-align: 2px !important;
