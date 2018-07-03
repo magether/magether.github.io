@@ -48,7 +48,7 @@ header .row>div:nth-child(1)>a img{
 }
 
 header #header-bar #header-top-notice strong.notice-badge{
-	background:#404040;
+	background:#df7676;
 }
 header #header-bar>.row {
 	background: linear-gradient(-45deg, #d695ed, #f0a7c3, #9ea3e3, #93efd9);
@@ -79,11 +79,7 @@ header #header-bar>.row {
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
 	color: #333333;
-	background: linear-gradient(-45deg, #d695ed, #f0a7c3, #9ea3e3, #93efd9);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	background: linear-gradient(-45deg, #d695ed, #f0a7c3);
 }
 #board-info{
 	height:68px;
@@ -115,18 +111,22 @@ header #header-bar>.row {
 	border-top:3px solid #63919d;
 }
 
-#article-list #article-list-category>a{
-	font-size:13px;
-	border-right:1px dashed;
-	background:#f3fafd;
+#article-list #article-list-category{
+	background: #e0e0e0;
 }
 
-#article-list #article-list-category{
-	background:#d1eef8;
+#article-list #article-list-category>a{
+	font-size:13px;
+	background:#cacaca;
+	border: 1px solid;
+    margin-right: -1px;
+    margin-top: -1px;
 }
 
 #article-list #article-list-category > a.active,#article-list #article-list-category>a:hover{
-	background:#fff;
+	background: #6d6d6d;
+    color: #fff !important;
+    border: 1px solid #333;
 }
 
 #article-info>h2{
@@ -162,8 +162,8 @@ header #header-bar>.row {
 }
 
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover{
-	background-color:#63919d;
-	border-color:#63919d;
+	background-color:#df7676;
+	border-color:#df7676;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
@@ -201,7 +201,7 @@ header #right-search-form>#right-search-btn{
 }
 
 .fr-toolbar{
-	border-top:5px solid #ffc0c8;
+	border-top:5px solid #4dcfff;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
