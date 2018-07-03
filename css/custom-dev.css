@@ -108,25 +108,20 @@ header #header-bar>.row {
 }
 
 #article-list #article-list-category{
-	border-top:3px solid #63919d;
-}
-
-#article-list #article-list-category{
-	background: #e0e0e0;
+	border-top:4px solid #656565;
+	background: #e8e8e8;
 }
 
 #article-list #article-list-category>a{
 	font-size:13px;
-	background:#cacaca;
-	border: 1px solid;
-    margin-right: -1px;
-    margin-top: -1px;
+	background:#ffffff;
+	border-bottom: 3px solid;
 }
 
 #article-list #article-list-category > a.active,#article-list #article-list-category>a:hover{
-	background: #6d6d6d;
+	background: #656565;
     color: #fff !important;
-    border: 1px solid #333;
+	border-bottom: 3px solid #333;
 }
 
 #article-info>h2{
