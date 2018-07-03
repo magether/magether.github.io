@@ -184,7 +184,7 @@ header #right-search-form>#right-search-btn{
 #article-list>.article-list-row>.item>.list-title>small.comment-count{
 	padding:0 4px;
 	top:2px;
-	color:#f14f85;
+	color:#ff74c6;
 }
 
 #article-content-wrapper>.header{
@@ -212,7 +212,19 @@ header #right-search-form>#right-search-btn{
     background:url('../images/heart01.gif');
     background-repeat: no-repeat;
 	background-size: 12px;
-} 
+}
+span.a-badge i.fa.fa-star {
+	opacity: 0.75;
+    color: rgba(0,0,0,0);
+    vertical-align: 2px !important;
+    width: 18px;
+    height: 16px;
+    background: url('../images/star01.gif');
+    background-repeat: no-repeat;
+    background-size: 83%;
+    background-position: center 2px;
+    animation: Star 2s infinite;
+}
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
 	50% {background-position: 100% 50%}
@@ -230,3 +242,11 @@ header #right-search-form>#right-search-btn{
 	50% {background-position: 100% 50%}
 	100% {background-position: 0% 50%}
 }
+@keyframes Star {
+	0% {transform: scale( .75 )}
+	20% {transform: scale( 1 )}
+	40% {transform: scale( .75 )}
+	60% {transform: scale( 1 )}
+	80% {transform: scale( .75 )}
+	100% {transform: scale( .75 )}
+} 
