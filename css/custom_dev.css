@@ -214,16 +214,16 @@ header #right-search-form>#right-search-btn{
 	background-size: 12px;
 }
 span.a-badge i.fa.fa-star {
-	opacity: 0.75;
-    color: rgba(0,0,0,0);
-    vertical-align: 2px !important;
-    width: 18px;
-    height: 16px;
-    background: url('../images/star01.gif');
-    background-repeat: no-repeat;
-    background-size: 83%;
-    background-position: center 2px;
-    animation: Star 2s infinite;
+	opacity: 0.75;
+    color: rgba(0,0,0,0);
+    vertical-align: 2px !important;
+    width: 18px;
+    height: 16px;
+    background: url('../images/star01.gif');
+    background-repeat: no-repeat;
+    background-size: 83%;
+    background-position: center 2px;
+    animation: Star 2s infinite;
 }
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
