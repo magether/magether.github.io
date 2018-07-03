@@ -182,8 +182,8 @@ header #right-search-form>#right-search-btn{
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count{
-	padding:0 1px;
-	top:3px;
+	padding:0 4px;
+	top:2px;
 	color:#f14f85;
 }
 
@@ -203,6 +203,16 @@ header #right-search-form>#right-search-btn{
 	color:#517a84;
 	white-space:nowrap;
 }
+.fa-heart {
+	opacity: 0.8;
+	color:rgba(0,0,0,0); 
+    vertical-align: 2px !important;
+    width: 12px;
+    height: 12px;
+    background:url('../images/heart01.gif');
+    background-repeat: no-repeat;
+	background-size: 12px;
+} 
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
 	50% {background-position: 100% 50%}
