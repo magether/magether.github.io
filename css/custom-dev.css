@@ -78,9 +78,8 @@ header #header-bar>.row {
 	100% {background-position: 0% 50%}
 }
 #header-bar .dropdown .dropdown-menu{
+	display: block !important;
 	transition: transform 150ms ease;
-}
-#header-bar .dropdown .dropdown-menu{
 	transform-origin: top left;
     transform: scale(0);
     opacity: 0;
