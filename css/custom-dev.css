@@ -1,13 +1,13 @@
 header .row>div:nth-child(1)>a{
 	display:block;
-	width:159px;
-	height:59px;
-	margin-top:7px;
+	width:178px;
+	height:90px;
+	margin-top:25px;
 	background:url('../images/magether_logo.png') no-repeat;
 }
 
 header #right-search-form{
-	padding:20px 0 0;
+	padding:72px 0 0;
 }
 
 body,html{
