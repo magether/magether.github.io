@@ -51,7 +51,6 @@ header #header-bar #header-top-notice strong.notice-badge{
 	background:#404040;
 }
 header #header-bar>.row {
-	padding: 8px 0 5px !important;
 	background: linear-gradient(-45deg, #d695ed, #f0a7c3, #9ea3e3, #93efd9);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
@@ -78,7 +77,9 @@ header #header-bar>.row {
 	50% {background-position: 100% 50%}
 	100% {background-position: 0% 50%}
 }
-
+.open>.dropdown-menu {
+	animation: scale-in-top 0.3s ease-in-out both
+}
 #board-info{
 	height:68px;
 }
