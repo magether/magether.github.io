@@ -79,14 +79,25 @@ header #header-bar>.row {
 }
 #header-bar .dropdown .dropdown-menu{
 	display: block !important;
+	background-color: #333333;
 	transition: transform 150ms ease;
 	transform-origin: top left;
-    transform: scale(0);
+    transform: scale(0);1
     opacity: 0;
 }
 #header-bar .dropdown.open .dropdown-menu{
 	transform: scale(1);
     opacity: 1;
+}
+#header-bar .dropdown .dropdown-menu-right{
+	transform-origin: top right;
+}
+.dropdown-menu>li>a {
+	color: #ffffff;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: #ffffff;
+	background-color: #53483f;
 }
 #board-info{
 	height:68px;
