@@ -54,11 +54,11 @@ header #header-bar>.row{
 }
 
 header #header-bar #header-top-notice strong.notice-badge{
-	background:#63919d;
+	background:#404040;
 }
 header #header-bar>.row {
-	padding-top: 8px;
-    padding-bottom: 5px;
+	padding-top: 8px!important;
+    padding-bottom: 5px!important;
 	background: linear-gradient(-45deg, #d695ed, #f0a7c3, #9ea3e3, #93efd9);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
