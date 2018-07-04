@@ -1,3 +1,15 @@
+::selection {
+	background:#ff7777;
+	color: #ffffff;
+}
+::-moz-selection {
+	background:#ff7777;
+	color: #ffffff;
+}
+::-webkit-selection {
+	background:#ff7777;
+	color: #ffffff;
+}
 header .row>div:nth-child(1)>a {
 	display: block;
 	width: 178px;
