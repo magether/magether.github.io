@@ -148,6 +148,11 @@ header #header-bar>.row {
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
 	width: 150px;
 }
+header #right-search-form>input[type=text]:before {
+	display: block;
+	content: 'test';
+	font-size: 22px;
+}
 header #right-search-form>input[type=text] {
 	border: 4px solid #555555;
 }
