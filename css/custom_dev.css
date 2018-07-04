@@ -146,14 +146,12 @@ header #header-bar>.row {
 	width: 150px;
 }
 header #right-search-form {
-	padding: 45px 0 0;
+	padding: 72px 0 0;
 }
 header #right-search-form::before {
-	position:relative;
-	display: block;
+	position: absolute;
 	content: url('https://static-cdn.jtvnw.net/badges/v1/a0a42501-8006-491a-91c3-d512ba8a4157/2');
-	margin-bottom: -10px;
-	margin-right: 180px;
+	top: 41px;
 	z-index: 1000;
 }
 header #right-search-form>input[type=text] {
