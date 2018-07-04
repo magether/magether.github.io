@@ -73,6 +73,18 @@ header #header-bar>.row {
 	color: #333333;
 	background: linear-gradient(-45deg, #d695ed, #f0a7c3);
 }
+.input-group-btn .dropdown-menu {
+	display: block !important;
+	background-color: #333333;
+	transition: transform 150ms ease;
+	transform-origin: top left;
+	transform: scale(0);1
+	opacity: 0;
+}
+.input-group-btn.open .dropdown-menu {
+	transform: scale(1);
+	opacity: 1;
+}
 #board-info{
 	height: 68px;
 }
