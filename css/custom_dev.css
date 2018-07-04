@@ -66,6 +66,9 @@ header #header-bar>.row {
 #header-bar .dropdown .dropdown-menu-right {
 	transform-origin: top right;
 }
+.dropdown-menu {
+	background-color: #333333;
+}
 .dropdown-menu>li>a {
 	color: #ffffff;
 }
