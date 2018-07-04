@@ -152,6 +152,7 @@ header #right-search-form::before {
 	position: absolute;
 	content: url('https://static-cdn.jtvnw.net/badges/v1/a0a42501-8006-491a-91c3-d512ba8a4157/2');
 	top: 41px;
+	margin-left: 10px;
 	z-index: 1000;
 }
 header #right-search-form>input[type=text] {
