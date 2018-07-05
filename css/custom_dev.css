@@ -91,9 +91,9 @@ header #header-bar>.row {
 .input-group-btn .dropdown-menu {
 	display: block !important;
 	background-color: #333333;
-	transition: transform 150ms ease;
+	transition: transform 200ms ease-in-out;
 	transform-origin: top left;
-	transform: scale(0);1
+	transform: scale(0);
 	opacity: 0;
 }
 .input-group-btn.open .dropdown-menu {
