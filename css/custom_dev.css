@@ -122,7 +122,9 @@ header #header-bar>.row {
 }
 #board-info #viewers-area #viewers {
 	color: #757575;
+	font-size: 12px;
 	font-weight: 700;
+	vertical-align: 2px;
 }
 #board-info #viewers-area #viewers::before {
 	content: '마빻단 ';
