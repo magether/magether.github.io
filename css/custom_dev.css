@@ -125,7 +125,10 @@ header #header-bar>.row {
 	font-weight: 700;
 }
 #board-info #viewers-area #viewers::before {
-	content: '명이 마게더에 빼꼼~';
+	content: '마빻단 ';
+}
+#board-info #viewers-area #viewers::after {
+	content: '명 빼꼼~';
 }
 #article-list {
 	line-height: 14px;
