@@ -184,10 +184,10 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	background-color: #333333;
 }
 .dropdown-menu>li>a {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-	color: #333333;
+	color: #333333 !important;
 	background: linear-gradient(-45deg, #d695ed, #f0a7c3);
 }
 .input-group-btn .dropdown-menu {
@@ -197,6 +197,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	transform-origin: top left;
 	transform: scale(0);
 	opacity: 0;
+	padding: 8px 0;
 }
 .input-group-btn.open .dropdown-menu {
 	transform: scale(1);
@@ -204,6 +205,29 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 .dropdown-menu .divider {
 	background-color: #000000;
+}
+#board-info {
+	height: 83px;
+}
+#board-info>h1 {
+	width: 100%;
+	border-bottom: 1px solid #e2e2e2;
+}
+#board-info #viewers-area .fa-user::before {
+	color: rgba(10,59,84,0);
+	content: url('https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/2');
+}
+#board-info #viewers-area #viewers {
+	color: #757575;
+	font-size: 12px;
+	font-weight: 700;
+	vertical-align: 2px;
+}
+#board-info #viewers-area #viewers::before {
+	content: '마빻단 ';
+}
+#board-info #viewers-area #viewers::after {
+	content: '명 빼꼼~';
 }
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
