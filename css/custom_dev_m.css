@@ -94,14 +94,15 @@ body {
     padding-top: 60px;
 }
 #movetotop {
-    height: 45px;
-    width: 92%;
-    top: 10px;
-    left: 0;
-    margin: 0 4%;
-    bottom: auto;
-    right: auto;
-    z-index: 3006;
+	height: 45px;
+	width: 130px;
+	top: 10px;
+	left: 0;
+	margin: 0;
+	margin-left: -65px;
+	bottom: auto;
+	right: auto;
+	z-index: 3006;
 }
 #movetotop>img {
 	display: none;
@@ -339,8 +340,6 @@ span.a-badge i.fa.fa-star {
 }
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
 	padding: 0 1px;
-	position: relative;
-	top: -2px;
 	color: #ff7777;
 }
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
