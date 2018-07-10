@@ -133,6 +133,11 @@ nav#nav > #nav-upper #userDropdownContainer {
 	margin-right: 0;
 	margin-top: -4px;
 }
+nav#nav > #nav-upper #userDropdownContainer>a {
+	font-size: 19px;
+	height: 37px;
+	line-height: 37px;
+}
 nav#nav > #nav-upper #userDropdown img.profile-img {
 	width: 56px;
 	height: 56px;
