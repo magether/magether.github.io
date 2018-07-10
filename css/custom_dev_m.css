@@ -338,9 +338,10 @@ span.a-badge i.fa.fa-star {
 	max-width: 220px;
 }
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
-	padding: 0 4px;
-    top: 2px;
-    color: #ff7777;
+	padding: 0 1px;
+	position: relative;
+	top: -2px;
+	color: #ff7777;
 }
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
 	color: #36575f;
