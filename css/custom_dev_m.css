@@ -340,6 +340,25 @@ span.a-badge i.fa.fa-star {
 .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
 	width: 35px;
 }
+#article-list>.article-list-row>.item>a.list-title>.title-value {
+	max-width: 130px;
+}
+.btn-default {
+	background-color: none;
+}
+footer {
+	background: #ffffff;
+}
+@media (max-width: 420px) {
+	#article-list>.article-list-row>.item>a.list-title>.title-value {
+		max-width:180px;
+	}
+}
+@media (max-width: 360px) {
+	#article-list>.article-list-row>.item>a.list-title>.title-value {
+		max-width:130px;
+	}
+}
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
 	50% {background-position: 100% 50%}
