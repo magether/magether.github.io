@@ -282,10 +282,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #article-list>.article-list-row>.item>.list-title {
 	padding: 9px 0;
 }
-#article-list>.article-list-row>.item>.list-title>a {
-	max-width: 408px;
-}
-#article-list>.article-list-row>.item>.list-title>a:visited {
+#article-list>.article-list-row>.item>a.list-title:visited {
 	color: #858585;
 }
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
@@ -294,9 +291,6 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 .pagination>li>a,.pagination>li>span {
 	color: #ff7777;
-}
-#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-	color: #36575f;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
 	width: 150px;
@@ -342,6 +336,14 @@ span.a-badge i.fa.fa-star {
 }
 #article-list>.article-list-row>.item>a.list-title>.title-value {
 	max-width: 220px;
+}
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+	padding: 0 4px;
+    top: 2px;
+    color: #ff7777;
+}
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+	color: #36575f;
 }
 .btn-default {
 	background-color: none;
