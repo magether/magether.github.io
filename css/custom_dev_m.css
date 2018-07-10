@@ -149,9 +149,11 @@ nav#nav > #nav-upper #noteDropdownContainer>a {
 }
 nav#nav>.nav-header {
 	background: #e4e4e4;
-	color: #000;
+	color: #717171;
 	font-size: 17px;
 	font-weight: 300;
+	border-top: 1px solid #adadad;
+	border-bottom: 2px solid #adadad;
 }
 nav#nav>.nav-header>a {
 	color: #000;
@@ -208,7 +210,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #board-info {
 	height: 85px;
-	border-bottom: none;
+	background: #f2f2f2;
 }
 #board-info>h1 {
 	width: 100%;
@@ -216,6 +218,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #board-info>a.board-right-menu {
 	border-left: none;
+	color: #272727;
 }
 #board-info #viewers-area .fa-user::before {
 	color: rgba(10,59,84,0);
@@ -226,6 +229,9 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
     background: url(https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/2);
     background-size: 19px 19px;
     background-repeat: no-repeat;
+}
+#board-info #addFavoriteBtn i {
+	color: #efc839 !important;
 }
 #board-info #viewers-area #viewers {
 	color: #757575;
@@ -238,6 +244,9 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #board-info #viewers-area #viewers::after {
 	content: '명 빼꼼~';
+}
+#article-info {
+	border-bottom: 3px solid #ff7777;
 }
 #article-list {
 	line-height: 14px;
@@ -255,6 +264,45 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	background: #656565;
 	color: #fff !important;
 	border-bottom: 3px solid #333;
+}
+#article-reply-area > .header h5 {
+	color: #3379b7;
+}
+.fr-toolbar {
+	border-top: 5px solid #d695ed;
+	border-style: solid;
+	border-image: linear-gradient(-45deg, #d695ed, #f0a7c3, #9ea3e3, #93efd9);
+	border-image-slice: 1;
+	border-image-width: 5px 0 0 0;
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+	color: #517a84;
+	white-space: nowrap;
+}
+.favo .fa-heart {
+	opacity: 0.8;
+	color: rgba(0,0,0,0); 
+	vertical-align: 2px !important;
+	width: 12px;
+	height: 12px;
+	background: url('../images/heart01.gif');
+	background-repeat: no-repeat;
+	background-size: 12px;
+}
+span.a-badge {
+	width: 1.3em;
+}
+span.a-badge i.fa.fa-star {
+	opacity: 0.75;
+	color: rgba(0,0,0,0);
+	vertical-align: 2px !important;
+	width: 18px;
+	height: 16px;
+	background: url('../images/star01.gif');
+	background-repeat: no-repeat;
+	background-size: 83%;
+	background-position: center 2px;
+	animation: StarSS 2s infinite;
 }
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
