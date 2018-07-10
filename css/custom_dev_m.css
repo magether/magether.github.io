@@ -94,15 +94,14 @@ body {
     padding-top: 60px;
 }
 #movetotop {
-	height: 65px;
-	width: 130px;
-	top: 0;
-	left: 50%;
-	bottom: auto;
-	right: auto;
-	margin: 0;
-	margin-left: -65px;
-	z-index: 3006;
+    height: 45px;
+    width: 92%;
+    top: 10px;
+    left: 0;
+    margin: 0 4%;
+    bottom: auto;
+    right: auto;
+    z-index: 3006;
 }
 #movetotop>img {
 	display: none;
@@ -136,7 +135,8 @@ nav#nav > #nav-upper #userDropdownContainer {
 nav#nav > #nav-upper #userDropdownContainer>a {
 	font-size: 19px;
 	height: 37px;
-	line-height: 37px;
+	line-height: 52px;
+	padding-right: 11px;
 }
 nav#nav > #nav-upper #userDropdown img.profile-img {
 	width: 56px;
