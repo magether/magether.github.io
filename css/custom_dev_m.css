@@ -1,0 +1,200 @@
+.frame ins:nth-child(2) {
+	margin-left: -20px;
+	overflow-y: hidden; 
+	/* 아이폰SE, 아이폰5S 에서 광고양옆 여백때문에 페이지가 제대로 표시되지않아 조절하였습니다. 트게더 관리자님 보신다면 양쪽여백 좀 없애주세요 */
+}
+header{
+	padding: 0;
+	background: none;
+	height: 0;
+	border: 0;
+}
+header.nav-up {
+	top: 0;
+}
+header>#header-area>a>h1 {
+	background-image: url(https://magether.github.io/images/magether_m1.png);
+	background-size: 91px 32px;
+	background-repeat: no-repeat;
+}
+header>#header-area>#header-search-link, header>#header-area>#header-bar-link {
+	color: #272727;
+}
+header>#header-area {
+	position: fixed;
+	z-index: 3001;
+	top: 0;
+	left: 0;
+	width: 92%;
+	height: 45px;
+	margin: 10px 4%;
+	background: rgba(244, 240, 244, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(5px);
+	padding: 5px 0;
+	transform: perspective(1100px) translateY() rotateX(0deg);
+	transition: all 500ms;
+	transform-origin: 50% 100%;
+}
+header:before {
+	content: '';
+	display: block;
+	position: fixed;
+	z-index: 3003;
+	top: 30px;
+	left: 0;
+	height: 65px;
+	width: 100%;
+	background-image: url(https://magether.github.io/images/magether_m2.png);
+	background-size: 130px 65px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	transform: translateY(0) rotateX(-90deg);
+	transition: all 500ms;
+	opacity: 0;
+}
+header:after {
+	content: '';
+	display: block;
+	position: fixed;
+	z-index: 3002;
+	top: 45px;
+	left: 0;
+	background: linear-gradient(-45deg, #d695ed, #f0a7c3, #9ea3e3, #93efd9);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+	width: 92%;
+	height: 45px;
+	margin: 10px 4%;
+	transform: perspective(1100px) translateY(0%) rotateX(-90deg);
+	transform-origin: 50% 0%;
+	transition: all 500ms;
+}
+header.nav-up>#header-area {
+	transform: perspective(1100px) translateY(-100%) rotateX(88deg);
+}
+header.nav-up:after {
+	transform: perspective(1100px) translateY(-100%) rotateX(0deg);
+}
+header.nav-down:after {
+	transform: perspective(1100px) translateY(0%) rotateX(-90deg);
+}
+header.nav-up:before {
+	transform: translateY(-30px) rotateX(0deg);
+	opacity: 1;
+}
+header.nav-down:before {
+	transform: translateY(0) rotateX(-90deg);
+}
+html, body {
+    background: #ffffff;
+}
+body {
+    padding-top: 60px;
+}
+#movetotop {
+	height: 65px;
+	width: 130px;
+	top: 0;
+	left: 50%;
+	bottom: auto;
+	right: auto;
+	margin: 0;
+	margin-left: -65px;
+	z-index: 3006;
+}
+#movetotop>img {
+	display: none;
+}
+#nav {
+	transition: all 300ms ease-in-out;
+}
+#nav>* {
+	width: 300px;
+}
+#nav.hide {
+	display:block !important;
+	width: 0 !important;
+}
+#nav-overlay {
+	opacity: 1;
+	transition: opacity 150ms ease-in-out;
+}
+#nav-overlay.hide {
+	display: block !important;
+	width: 0;
+	opacity: 0;
+}
+nav#nav>#nav-upper>#header-close-bar-link {
+	padding: 11px 16px 8px;
+}
+nav#nav > #nav-upper #userDropdownContainer {
+	margin-right: 0;
+	margin-top: -4px;
+}
+nav#nav > #nav-upper #userDropdown img.profile-img {
+	width: 56px;
+	height: 56px;
+}
+nav#nav > #nav-upper #noteDropdownContainer>a {
+	font-size: 19px;
+	height: 37px;
+	line-height: 37px;
+}
+nav#nav>.nav-header {
+	background: #e4e4e4;
+	color: #000;
+	font-size: 17px;
+	font-weight: 300;
+}
+nav#nav>.nav-header>a {
+	color: #000;
+	font-size: 17px;
+	font-weight: 300;
+}
+#header-top-notice strong.notice-badge {
+	background: #272727;
+}
+nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
+	color: #00c4ff;
+}
+@-webkit-keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+@-moz-keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+@keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+@-webkit-keyframes StarSS {
+	0% {transform:scale(.75)}
+	20% {transform:scale(1)}
+	40% {transform:scale(.75)}
+	60% {transform:scale(1)}
+	80% {transform:scale(.75)}
+	100% {transform:scale(.75)}
+}
+@-moz-keyframes StarSS {
+	0% {transform:scale(.75)}
+	20% {transform:scale(1)}
+	40% {transform:scale(.75)}
+	60% {transform:scale(1)}
+	80% {transform:scale(.75)}
+	100% {transform:scale(.75)}
+} 
+@keyframes StarSS {
+	0% {transform:scale(.75)}
+	20% {transform:scale(1)}
+	40% {transform:scale(.75)}
+	60% {transform:scale(1)}
+	80% {transform:scale(.75)}
+	100% {transform:scale(.75)}
+}
