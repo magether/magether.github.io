@@ -141,6 +141,7 @@ nav#nav > #nav-upper #userDropdownContainer>a {
 nav#nav > #nav-upper #userDropdown img.profile-img {
 	width: 56px;
 	height: 56px;
+	margin-right: -11px;
 }
 nav#nav > #nav-upper #noteDropdownContainer>a {
 	font-size: 19px;
@@ -268,6 +269,38 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #article-reply-area > .header h5 {
 	color: #3379b7;
 }
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: transparent;
+	color: #63919d;
+	border: none;
+	padding: 2px 5px 1px;
+}
+#article-list>.article-list-row>.item>.list-header.v0>span {
+	background-color: transparent;
+	border: none;
+}
+#article-list>.article-list-row>.item>.list-title {
+	padding: 9px 0;
+}
+#article-list>.article-list-row>.item>.list-title>a {
+	max-width: 408px;
+}
+#article-list>.article-list-row>.item>.list-title>a:visited {
+	color: #858585;
+}
+.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
+	background-color: #ff7777;
+	border-color: #ff7777;
+}
+.pagination>li>a,.pagination>li>span {
+	color: #ff7777;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+	color: #36575f;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+	width: 150px;
+}
 .fr-toolbar {
 	border-top: 5px solid #d695ed;
 	border-style: solid;
@@ -303,6 +336,9 @@ span.a-badge i.fa.fa-star {
 	background-size: 83%;
 	background-position: center 2px;
 	animation: StarSS 2s infinite;
+}
+.fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
+	width: 35px;
 }
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
