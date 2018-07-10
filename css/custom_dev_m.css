@@ -207,11 +207,15 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	background-color: #000000;
 }
 #board-info {
-	height: 83px;
+	height: 85px;
+	border-bottom: none;
 }
 #board-info>h1 {
 	width: 100%;
 	border-bottom: 1px solid #e2e2e2;
+}
+#board-info>a.board-right-menu {
+	border-left: none;
 }
 #board-info #viewers-area .fa-user::before {
 	color: rgba(10,59,84,0);
@@ -234,6 +238,23 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #board-info #viewers-area #viewers::after {
 	content: '명 빼꼼~';
+}
+#article-list {
+	line-height: 14px;
+}
+#article-list #article-list-category {
+	border-top: 0px solid #656565;
+	background: #e8e8e8;
+}
+#article-list #article-list-category>a {
+	font-size: 13px;
+	background: #ffffff;
+	border-bottom: 3px solid;
+}
+#article-list #article-list-category > a.active,#article-list #article-list-category>a:hover {
+	background: #656565;
+	color: #fff !important;
+	border-bottom: 3px solid #333;
 }
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
