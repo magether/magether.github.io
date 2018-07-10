@@ -341,7 +341,7 @@ span.a-badge i.fa.fa-star {
 	width: 35px;
 }
 #article-list>.article-list-row>.item>a.list-title>.title-value {
-	max-width: 130px;
+	max-width: 220px;
 }
 .btn-default {
 	background-color: none;
