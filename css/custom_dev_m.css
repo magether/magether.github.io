@@ -227,6 +227,18 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #board-info>a.board-right-menu {
 	border-left: none;
 	color: #272727;
+	padding: 12px 15px;
+}
+#board-info>h1>#board-info-profile-img {
+	position: absolute;
+	width: 67px;
+	height: 67px;
+	line-height: 23px;
+	border: 3px solid #e7e7e7;
+	border-radius: 50%;
+}
+#board-info>h1>a {
+	margin-left: 70px;
 }
 #board-info #viewers-area .fa-user::before {
 	color: rgba(10,59,84,0);
