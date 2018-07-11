@@ -90,7 +90,7 @@ header.nav-up:before {
 }
 header.nav-down:before {
 	transform: perspective(1100px) translateZ(10px) translateY(0) rotateX(-90deg);
-	opacity: 1;
+	opacity: 0;
 }
 html, body {
     background: #ffffff;
