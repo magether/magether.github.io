@@ -32,14 +32,14 @@ header>#header-area {
     -webkit-backdrop-filter: saturate(180%) blur(5px);
 	padding: 5px 0;
 	transform: perspective(1100px) translateY(0%) rotateX(0deg);
-	transition: all 500ms;
+	transition: all 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
 	transform-origin: 50% 100%;
 }
 header:before {
 	content: '';
 	display: block;
 	position: fixed;
-	z-index: 3003;
+	z-index: 3005;
 	top: 30px;
 	left: 0;
 	height: 65px;
@@ -49,7 +49,7 @@ header:before {
 	background-repeat: no-repeat;
 	background-position: center top;
 	transform: translateY(0) rotateX(-90deg);
-	transition: all 500ms;
+	transition: all 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
 	opacity: 0;
 }
 header:after {
@@ -68,11 +68,12 @@ header:after {
 	height: 45px;
 	margin: 10px 4%;
 	transform: perspective(1100px) translateY(0%) rotateX(-90deg);
+	transition: all 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
 	transform-origin: 50% 0%;
-	transition: all 500ms;
 }
 header.nav-up>#header-area {
 	transform: perspective(1100px) translateY(-100%) rotateX(88deg);
+	z-index: 3003;
 }
 header.nav-down>#header-area {
 	transform: perspective(1100px) translateY(0%) rotateX(0deg);
