@@ -48,7 +48,7 @@ header:before {
 	background-size: 130px 65px;
 	background-repeat: no-repeat;
 	background-position: center top;
-	transform: translateY(0) rotateX(-90deg);
+	transform: perspective(1100px) translateZ(10px) translateY(0) rotateX(-90deg);
 	transition: all 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
 	opacity: 0;
 }
@@ -85,11 +85,12 @@ header.nav-down:after {
 	transform: perspective(1100px) translateY(0%) rotateX(-90deg);
 }
 header.nav-up:before {
-	transform: translateY(-30px) rotateX(0deg);
+	transform: perspective(1100px) translateZ(10px) translateY(-28px) rotateX(0deg);
 	opacity: 1;
 }
 header.nav-down:before {
-	transform: translateY(0) rotateX(-90deg);
+	transform: perspective(1100px) translateZ(10px) translateY(0) rotateX(-90deg);
+	opacity: 1;
 }
 html, body {
     background: #ffffff;
