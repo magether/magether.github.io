@@ -172,7 +172,7 @@ header #header-bar>.row {
 	max-width: 408px;
 }
 #article-list>.article-list-row>.item>.list-title>a:visited {
-	color: #858585;
+	color: #858585 !important;
 }
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
 	background-color: #ff7777;
@@ -180,6 +180,11 @@ header #header-bar>.row {
 }
 .pagination>li>a,.pagination>li>span {
 	color: #ff7777;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #ff7777;
+    background-color: #ffcfcf;
+    border-color: #ff7777;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
 	color: #36575f;

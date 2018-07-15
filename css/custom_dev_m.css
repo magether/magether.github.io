@@ -302,7 +302,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	padding: 9px 0;
 }
 #article-list>.article-list-row>.item>a.list-title:visited {
-	color: #858585;
+	color: #858585 !important;
 }
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
 	background-color: #ff7777;
@@ -310,6 +310,11 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 .pagination>li>a,.pagination>li>span {
 	color: #ff7777;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #ff7777;
+    background-color: #ffcfcf;
+    border-color: #ff7777;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
 	width: 150px;
