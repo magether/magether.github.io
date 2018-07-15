@@ -172,7 +172,7 @@ header #header-bar>.row {
 	max-width: 408px;
 }
 #article-list>.article-list-row>.item>.list-title>a:visited {
-	color: #858585 !important;
+	color: #858585;
 }
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
 	background-color: #ff7777;
