@@ -16,8 +16,8 @@ header>#header-area>a>h1 {
 	background-size: 91px 32px;
 	background-repeat: no-repeat;
 }
-header>#header-area>#header-search-link, header>#header-area>#header-bar-link, #header-search-btn {
-	color: #272727;
+header>#header-area>#header-search-link, header>#header-area>#header-bar-link {
+	color: #272727 !important;
 }
 header>#header-area {
 	position: fixed;
@@ -111,13 +111,21 @@ header>#header-search-bar #header-search-input {
 	flex: 1;
 	padding: 6px 8px;
 	overflow: hidden;
-	transition: all 800ms;
+	-webkit-transition: all 800ms ease-in-out;
+	transition: all 800ms ease-in-out;
 	opacity: 1;
 }
 header>#header-search-bar.hide #header-search-input {
 	flex: 0;
 	padding: 6px 0;
 	opacity: 0;
+	-webkit-transition: all 800ms ease-in-out;
+	transition: all 800ms ease-in-out;
+}
+header > #header-search-bar #header-search-btn {
+	color: #272727 !important;
+	margin-top: -2px;
+	padding: 0;
 }
 html, body {
 	background: #ffffff;
