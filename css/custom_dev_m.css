@@ -257,6 +257,8 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #board-info>h1 {
 	width: 100%;
 	border-bottom: 1px solid #e2e2e2;
+	overflow: hidden;
+	white-space: nowrap;
 }
 #board-info>a.board-right-menu {
 	border-left: none;
