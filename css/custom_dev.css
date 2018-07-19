@@ -224,6 +224,13 @@ header #right-search-form>#right-search-btn {
 	padding: 0 4px;
 	top: 2px;
 	color: #ff7777;
+	/* HEART */
+	padding-right: 17px;
+	text-align: left;
+    background: url('../images/heart02.gif');
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 #article-content-wrapper>.header {
 	border-top: 3px solid #ff7777;
@@ -251,6 +258,8 @@ header #right-search-form>#right-search-btn {
 	background: url('../images/heart01.gif');
 	background-repeat: no-repeat;
 	background-size: 12px;
+	/* HEART */
+	display: none;
 }
 span.a-badge {
 	width: 1.3em;
