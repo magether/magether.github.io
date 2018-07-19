@@ -224,6 +224,7 @@ header #right-search-form>#right-search-btn {
 	padding: 0 4px;
 	top: 2px;
 	color: #ff7777;
+<<<<<<< HEAD
 	/* HEART */
 	padding-right: 18px;
 	text-align: left;
@@ -231,6 +232,8 @@ header #right-search-form>#right-search-btn {
     background-size: 12px 12px;
     background-repeat: no-repeat;
     background-position: right;
+=======
+>>>>>>> parent of 24d5221... HEART ALL
 }
 #article-content-wrapper>.header {
 	border-top: 3px solid #ff7777;
@@ -258,8 +261,6 @@ header #right-search-form>#right-search-btn {
 	background: url('../images/heart01.gif');
 	background-repeat: no-repeat;
 	background-size: 12px;
-	/* HEART */
-	display: none;
 }
 span.a-badge {
 	width: 1.3em;

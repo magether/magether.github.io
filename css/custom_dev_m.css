@@ -375,8 +375,6 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	background: url('../images/heart01.gif');
 	background-repeat: no-repeat;
 	background-size: 12px;
-	/* HEART */
-	display: none;
 }
 span.a-badge {
 	width: 1.3em;
@@ -402,6 +400,7 @@ span.a-badge i.fa.fa-star {
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
 	padding: 0 1px;
 	color: #ff7777;
+<<<<<<< HEAD
 	/* HEART */
 	padding-right: 18px;
 	text-align: left;
@@ -409,6 +408,8 @@ span.a-badge i.fa.fa-star {
     background-size: 12px 12px;
     background-repeat: no-repeat;
     background-position: right;
+=======
+>>>>>>> parent of 24d5221... HEART ALL
 }
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
 	color: #36575f;
