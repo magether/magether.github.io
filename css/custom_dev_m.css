@@ -481,37 +481,39 @@ nav#nav.hide > #nav-upper #userDropdown #notification-badge {
 /* ======= 알림 ======= */
 
 #nav.hide {
-    overflow: visible;
+	overflow: visible;
 }
 nav#nav > #nav-upper #userDropdown #notification-badge {
-    left: -20%;
+	z-index: 9101;
 }
 nav#nav.hide > #nav-upper #userDropdown #notification-badge {
-    position: fixed;
-    top: 5px;
-    left: 4%;
-    transition: left 1s ease;
+	position: fixed;
+	top: 3px;
+	left: 4%;
+	margin-left: -5px;
 }
 #nav.hide .dropdown .dropdown-menu-right {
-    position: fixed;
-    top: 0;
-    left: 4%;
-    margin-top: 12px;
-    margin-left: 15px;
-    transform-origin: top left;
-    right: auto;
+	position: fixed;
+	top: 0;
+	left: 4%;
+	margin-top: 12px;
+	margin-left: 8px;
+	transform-origin: top left;
+	right: auto;
 }
-nav#nav.hide > #nav-upper-shortcut,
 nav#nav.hide > .nav-header,
 nav#nav.hide > .nav-menu-area,
+nav#nav.hide > #nav-upper-shortcut,
 nav#nav.hide > #nav-schedule-list,
 nav#nav.hide > #nav-upper #header-close-bar-link,
 nav#nav.hide > #nav-upper #noteDropdownContainer,
 nav#nav.hide > #nav-upper #userDropdownContainer > a > img,
 nav#nav.hide > a {
-    display: none;
+	display: none;
 }
 
 /* ======= 타겟 ======= */
 
 #article-list-row-7116706 .favo .fa-heart {animation: StarSS 900ms infinite;}
+#article-list-row-7359171{background:linear-gradient(-45deg, #e7ebff, #ffedf4, #e6ffe8, #feffd6)!important;background-size:400% 400% !important;-webkit-animation:Gradient 15s ease infinite;-moz-animation:Gradient 15s ease infinite;animation:Gradient 15s ease infinite;}
+#article-list-row-7359171:hover{background:linear-gradient(-45deg, #d1d9ff, #ffd4e5, #c6ffca, #fdffbe)!important;background-size:400% 400% !important;-webkit-animation:Gradient 3s ease infinite;-moz-animation:Gradient 3s ease infinite;animation:Gradient 3s ease infinite;}
