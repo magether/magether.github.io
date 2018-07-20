@@ -413,18 +413,6 @@ span.a-badge i.fa.fa-star {
 footer {
 	background: #ffffff;
 }
-nav#nav > #nav-upper #userDropdown #notification-badge {
-	position: static;
-	top: auto;
-	left: -4%;
-	transition: left 1s ease;
-}
-nav#nav.hide > #nav-upper #userDropdown #notification-badge {
-	position: fixed;
-	top: 5px;
-	left: 4%;
-	transition: left 1s ease;
-}
 
 /* ======= 효과 ======= */
 
@@ -485,6 +473,8 @@ nav#nav.hide > #nav-upper #userDropdown #notification-badge {
 }
 nav#nav > #nav-upper #userDropdown #notification-badge {
 	z-index: 9101;
+	top:-30px;
+	transition: top 800ms ease-in-out;
 }
 nav#nav.hide > #nav-upper #userDropdown #notification-badge {
 	position: fixed;
