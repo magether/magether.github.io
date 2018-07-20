@@ -413,6 +413,18 @@ span.a-badge i.fa.fa-star {
 footer {
 	background: #ffffff;
 }
+nav#nav > #nav-upper #userDropdown #notification-badge {
+	position: static;
+	top: auto;
+	left: -4%;
+	transition: left 1s ease;
+}
+nav#nav.hide > #nav-upper #userDropdown #notification-badge {
+	position: fixed;
+	top: 5px;
+	left: 4%;
+	transition: left 1s ease;
+}
 
 /* ======= 효과 ======= */
 
@@ -464,6 +476,40 @@ footer {
 	#article-list > .article-list-row > .item > a.list-title > .title-value {
 		max-width: 130px;
 	}
+}
+
+/* ======= 알림 ======= */
+
+#nav.hide {
+    overflow: visible;
+}
+nav#nav > #nav-upper #userDropdown #notification-badge {
+    left: -20%;
+}
+nav#nav.hide > #nav-upper #userDropdown #notification-badge {
+    position: fixed;
+    top: 5px;
+    left: 4%;
+    transition: left 1s ease;
+}
+#nav.hide .dropdown .dropdown-menu-right {
+    position: fixed;
+    top: 0;
+    left: 4%;
+    margin-top: 12px;
+    margin-left: 15px;
+    transform-origin: top left;
+    right: auto;
+}
+nav#nav.hide > #nav-upper-shortcut,
+nav#nav.hide > .nav-header,
+nav#nav.hide > .nav-menu-area,
+nav#nav.hide > #nav-schedule-list,
+nav#nav.hide > #nav-upper #header-close-bar-link,
+nav#nav.hide > #nav-upper #noteDropdownContainer,
+nav#nav.hide > #nav-upper #userDropdownContainer > a > img,
+nav#nav.hide > a {
+    display: none;
 }
 
 /* ======= 타겟 ======= */
