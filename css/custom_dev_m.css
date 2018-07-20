@@ -497,7 +497,7 @@ nav#nav.hide > #nav-upper-shortcut,
 nav#nav.hide > #nav-schedule-list,
 nav#nav.hide > #nav-upper #header-close-bar-link,
 nav#nav.hide > #nav-upper #noteDropdownContainer,
-nav#nav.hide > #nav-upper #userDropdownContainer > #userDropdown,
+nav#nav.hide > #nav-upper #userDropdownContainer > a > i,
 nav#nav.hide > #nav-upper #userDropdownContainer > a > img,
 nav#nav.hide > a {
 	display: none;
