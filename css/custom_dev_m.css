@@ -325,13 +325,13 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	color: #3379b7;
 }
 #article-list>.article-list-row>.item>.list-header>span {
-	background-color: transparent;
+	background-color: transparent !important;
 	color: #63919d;
 	border: none;
 	padding: 2px 5px 1px;
 }
 #article-list>.article-list-row>.item>.list-header.v0>span {
-	background-color: transparent;
+	background-color: transparent !important;
 	border: none;
 }
 #article-list>.article-list-row>.item>.list-title {
@@ -341,16 +341,16 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	color: #858585 !important;
 }
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
-	background-color: #ff7777;
-	border-color: #ff7777;
+	background-color: #ff7777 !important;
+	border-color: #ff7777 !important;
 }
 .pagination>li>a,.pagination>li>span {
-	color: #ff7777;
+	color: #ff7777 !important;
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-	color: #ff7777;
-	background-color: #ffcfcf;
-	border-color: #ff7777;
+	color: #ff7777 !important;
+	background-color: #ffcfcf !important;
+	border-color: #ff7777 !important;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
 	width: 150px;
@@ -469,5 +469,3 @@ footer {
 /* ======= 타겟 ======= */
 
 #article-list-row-7116706 .favo .fa-heart {animation: StarSS 900ms infinite;}
-#article-list-row-7323491{background:linear-gradient(-45deg, #e7ebff, #ffedf4, #e6ffe8, #feffd6)!important;background-size:400% 400% !important;-webkit-animation:Gradient 15s ease infinite;-moz-animation:Gradient 15s ease infinite;animation:Gradient 15s ease infinite;}
-#article-list-row-7323491:hover{background:linear-gradient(-45deg, #d1d9ff, #ffd4e5, #c6ffca, #fdffbe)!important;background-size:400% 400% !important;-webkit-animation:Gradient 3s ease infinite;-moz-animation:Gradient 3s ease infinite;animation:Gradient 3s ease infinite;}
