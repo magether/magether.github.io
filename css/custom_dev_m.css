@@ -466,7 +466,7 @@ footer {
 	}
 }
 
-/* ======= 알림기능 추가됨으로 삭제 
+/* ======= 알림 ======= */
 
 #nav.hide {
 	overflow: visible;
@@ -480,7 +480,10 @@ nav#nav.hide > #nav-upper #userDropdown #notification-badge {
 	position: fixed;
 	top: 3px;
 	left: 4%;
+	right: auto !important;
 	margin-left: -5px;
+	background:#ff7777 !important;
+	color:#000 !important;
 }
 #nav.hide .dropdown .dropdown-menu-right {
 	position: fixed;
@@ -502,8 +505,9 @@ nav#nav.hide > #nav-upper #userDropdownContainer > a > img,
 nav#nav.hide > a {
 	display: none;
 }
-
-*/
+#header-notification-badge {
+	display: none;
+}
 
 /* ======= 타겟 ======= */
 
