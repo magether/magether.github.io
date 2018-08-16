@@ -352,7 +352,7 @@ body {
 #article-list div {
 	border-color:#000!important;
 }
-#article-list>.article-list-row:hover {
+#article-list>.article-list-row.active, #article-list>.article-list-row:hover {
 	background:#000;
 }
 #article-list #article-list-category {
