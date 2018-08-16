@@ -440,6 +440,16 @@ a.custom-badge-link {
 #article-list>.article-list-row>.item>.list-header.v0>span {
 	color: #252525;
 }
+#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
+	background-color: #28231c !important;
+	border-color: #ffd291 !important;
+}
+#article-reply-area #reply-best-area div.reply-content {
+	background: #362a2b !important;
+}
+#article-reply-area #reply-best-area>div {
+	border-color: #ff7777 !important;
+}
 }
 
 /* ======= 타겟 ======= */
