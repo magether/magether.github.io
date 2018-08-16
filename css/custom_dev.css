@@ -315,130 +315,130 @@ span.a-badge i.fa.fa-star {
 
 @media (max-width:1258px) {
 html {
-	padding:0;
+	padding: 0;
 }
 body {
-	background:#171717;
+	background: #171717;
 }
 #main #main-content>div.frame {
-	background:#252525;
-	color:#fff;
+	background: #252525;
+	color: #ffffff;
 }
 #article-list #article-list-category>a {
-	background:#333;
+	background: #333333;
 }
 #article-list>.article-list-row.notice {
-	background:#555;
+	background: #555555;
 }
 #article-list>.article-list-row>.item>.list-title>a {
-	color:#fff!important;
+	color: #ffffff !important;
 }
 #article-list>.article-list-row>.item>.list-title>a:visited {
-	color:#737373!important;
+	color: #737373 !important;
 }
 #main .menu-wrapper,#main #main-content>div.frame {
-	border-color:#000;
+	border-color: #000000;
 }
 #board-info h1>a {
-	color:#fff;
+	color: #ffffff;
 }
 #board-info h1 {
-	border-color:#3a3a3a;
+	border-color: #3a3a3a;
 }
 #board-info #board-info-bottom a {
-	color:#9cb5d0;
-	border-color:#3a3a3a;
+	color: #9cb5d0;
+	border-color: #3a3a3a;
 }
 #article-list div {
-	border-color:#000!important;
+	border-color: #000000 !important;
 }
 #article-list>.article-list-row.active, #article-list>.article-list-row:hover {
-	background:#000;
+	background: #000000 !important;
 }
 #article-list #article-list-category {
-	background:#252525;
-}
-.form-control,.btn-default {
-	background:#000!important;
-	border-color:#000!important;
-	color:#ddd;
+	background: #252525;
 }
 #main .menu-wrapper a,#main .menu-wrapper div {
-	background:#333!important;
-	color:#909090!important;
-	border-color:#272727!important;
+	background: #333333 !important;
+	color: #909090 !important;
+	border-color: #272727 !important;
 }
 #main .menu-wrapper>.header {
-	background:#272727!important;
+	background: #272727 !important;
+}
+.form-control,.btn-default {
+	background: #000000 !important;
+	border-color: #000000 !important;
+	color: #dddddd;
 }
 .pagination>li>a,.pagination>li>span {
-	background:#111;
-	border-color:#111;
+	background: #111111;
+	border-color: #111111;
 }
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
-	background-color:#f77;
-	border-color:#f77;
+	background-color: #ff7777;
+	border-color: #ff7777;
 }
 .pagination>li>a,.pagination>li>span {
-	color:#f77;
+	color: #ff7777;
 }
 .pagination>li>a:focus,.pagination>li>a:hover,.pagination>li>span:focus,.pagination>li>span:hover {
-	color:#f77;
-	background-color:#ffcfcf;
-	border-color:#f77;
+	color: #ff7777;
+	background-color: #ffcfcf;
+	border-color: #ff7777;
 }
 #main #main-content>div.frame div {
-	border-color:#000;
+	border-color: #000000;
 }
 #article-content-wrapper>.header {
-	border-color:#f77!important;
-	background:#000;
+	border-color: #ff7777 !important;
+	background: #000000;
 }
 header #right-search-form>input[type=text] {
-	background:#000;
+	background: #000000;
 }
 #article-content-wrapper>.footer {
-	background:#000!important;
+	background: #000000 !important;
 }
 #article-reply-area #reply-real-area .reply > .reply-header,#article-reply-area #reply-best-area .reply>.reply-header {
-	background:#1b1b1b;
-	border-color:#000;
+	background: #1b1b1b;
+	border-color: #000000;
 }
 .fr-toolbar.fr-top {
-	background:#333;
+	background: #333333;
 }
 .fr-box.fr-basic .fr-wrapper {
-	background:#1d1d1d;
+	background: #1d1d1d;
 }
 .fr-box.fr-basic p {
-	color:#fff;
+	color: #ffffff;
 }
 .fr-separator {
-	background:#252525;
+	background: #252525;
 }
 .fr-toolbar .fr-command.fr-btn,.fr-popup .fr-command.fr-btn {
-	color:#fff;
+	color: #ffffff;
 }
 .fr-desktop .fr-command:hover,.fr-desktop .fr-command:focus {
-	background:#f77;
+	background: #ff7777;
 }
 .fr-toolbar.fr-top {
-	box-shadow:0 1px 3px rgba(255,255,255,.12),0 1px 1px 1px rgba(255,255,255,.16);
+	box-shadow: 0 1px 3px rgba(255,255,255,.12),0 1px 1px 1px rgba(255,255,255,.16);
 }
 .fr-popup .fr-input-line input+label,.fr-popup .fr-input-line textarea+label,.fr-popup {
-	background:#474747;
+	background: #474747;
 }
 .btn.square {
-	border-color:#000;
+	border-color: #000000;
 }
 a.custom-badge-link {
-	border-color:#252525;
+	border-color: #252525;
 }
 #main .menu-wrapper>a:hover {
-	background:#171717!important;
+	background: #171717 !important;
 }
 #article-list>.article-list-row>.item>.list-header.v0>span {
-	color:#252525;
+	color: #252525;
 }
 }
 
