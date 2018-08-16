@@ -22,6 +22,7 @@ header .row>div:nth-child(1)>a {
 }
 body,html {
 	height: auto!important;
+	transition:all 900ms ease;
 }
 html {
 	padding: 60px 45px 45px;
@@ -314,11 +315,9 @@ span.a-badge i.fa.fa-star {
 
 @media (max-width:1258px) {
 html {
-	transition:all 900ms ease;
 	padding:0;
 }
 body {
-	transition:all 900ms ease;
 	background:#171717;
 }
 #main #main-content>div.frame {
