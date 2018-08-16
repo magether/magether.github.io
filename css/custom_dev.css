@@ -19,10 +19,11 @@ header .row>div:nth-child(1)>a {
 	height: 90px;
 	margin-top: 25px;
 	background: url('../images/magether_logo.png') no-repeat;
+	transition: all 900ms ease;
 }
 body,html {
 	height: auto!important;
-	transition:all 900ms ease;
+	transition: all 900ms ease;
 }
 html {
 	padding: 60px 45px 45px;
@@ -449,6 +450,10 @@ a.custom-badge-link {
 }
 #article-reply-area #reply-best-area>div {
 	border-color: #ff7777 !important;
+}
+header .row>div:nth-child(1)>a {
+	filter: invert(0.9);
+	-webkit-filter: invert(0.9);
 }
 }
 
