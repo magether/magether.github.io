@@ -456,7 +456,10 @@ header .row>div:nth-child(1)>a {
 	-webkit-filter: invert(0.9);
 }
 header #right-search-form::before {
-    content: url('https://static-cdn.jtvnw.net/badges/v1/fe147cca-6e80-4769-9927-a2e3aecae4c7/2');
+	content: url('https://static-cdn.jtvnw.net/badges/v1/fe147cca-6e80-4769-9927-a2e3aecae4c7/2');
+}
+.alertify-logs>.default {
+	background: rgba(255, 111, 111, 0.8);
 }
 }
 
