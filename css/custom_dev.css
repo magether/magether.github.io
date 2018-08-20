@@ -28,7 +28,7 @@ body,html {
 html {
 	padding: 60px 45px 45px;
 	background-color: #fff;
-	background: url('../images/bg2.gif') no-repeat;
+	background: url('../images/bg.gif') no-repeat;
 }
 body {
 	min-width: 1150px;
