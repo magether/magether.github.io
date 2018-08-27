@@ -482,8 +482,9 @@ nav#nav.hide > #nav-upper #userDropdown #notification-badge {
 	left: 4%;
 	right: auto !important;
 	margin-left: -5px;
-	background:#ff7777 !important;
-	color:#000 !important;
+}
+#favoriteDropdownMenu>li>a, #latestDropdownMenu>li>a {
+	padding: 4px 3px 4px 10px;
 }
 #nav.hide .dropdown .dropdown-menu-right {
 	position: fixed;
