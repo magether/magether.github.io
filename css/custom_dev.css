@@ -221,6 +221,10 @@ header #right-search-form>#right-search-btn {
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
 	width: 150px;
+	height: 19px;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer>span img {
+	vertical-align: bottom;
 }
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
 	padding: 0 4px;
@@ -440,6 +444,9 @@ a.custom-badge-link {
 }
 #article-list>.article-list-row>.item>.list-header.v0>span {
 	color: #252525;
+}
+#article-list>.article-list-row:hover>.item>.list-header.v0>span {
+	color: #000000;
 }
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
 	background-color: #28231c !important;
