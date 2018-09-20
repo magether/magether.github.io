@@ -15,10 +15,10 @@
 
 header .row>div:nth-child(1)>a {
 	display: block;
-	width: 178px;
-	height: 90px;
+	width: 180px;
+	height: 91px;
 	margin-top: 25px;
-	background: url('../images/magether_logo.png') no-repeat;
+	background: url('../images/magether.svg') no-repeat;
 	transition: all 900ms ease;
 }
 body,html {
@@ -31,7 +31,6 @@ html {
 	background: url('../images/bg.gif') no-repeat;
 }
 body {
-	min-width: 1150px;
 	background: #f4f0f4;
 }
 header .row>div:nth-child(1)>a img {
