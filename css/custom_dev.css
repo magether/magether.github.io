@@ -321,6 +321,7 @@ span.a-badge i.fa.fa-star {
 @media (max-width:1258px) {
 html {
 	padding: 0;
+	background-color: #171717;
 }
 body {
 	background: #171717;
