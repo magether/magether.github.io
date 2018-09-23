@@ -2,6 +2,15 @@
 	margin-left: -20px;
 	overflow-y: hidden;
 }
+.article-list-row>ins {
+	height: auto !important;
+}
+.article-list-row:not(.has-category) {
+    padding:0!important;
+    font-size:0;
+    line-height:0;
+    border-bottom:0px!important;
+}
 header{
 	padding: 0;
 	background: none;
