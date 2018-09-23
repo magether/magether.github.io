@@ -19,11 +19,9 @@ header .row>div:nth-child(1)>a {
 	height: 91px;
 	margin-top: 25px;
 	background: url('../images/magether.svg') no-repeat;
-	transition: all 900ms ease;
 }
 body,html {
 	height: auto!important;
-	transition: all 900ms ease;
 }
 html {
 	padding: 60px 45px 45px;
@@ -316,7 +314,7 @@ span.a-badge i.fa.fa-star {
 	100% {transform:scale(.75)}
 }
 
-/* ======= Darkmode ======= */
+/* ======= Darkmode ======= 
 
 @media (max-width:1258px) {
 html {
@@ -470,7 +468,7 @@ header #right-search-form::before {
 	background: rgba(255, 111, 111, 0.8);
 }
 }
-
+*/
 /* ======= 타겟 ======= */
 
 #article-list-row-7116706 .favo .fa-heart {animation: StarSS 900ms infinite;}
