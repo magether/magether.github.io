@@ -228,6 +228,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	background-color: #333333;
 }
 .dropdown-menu>li>a {
+	line-height: 1;
 	color: #ffffff !important;
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
@@ -484,7 +485,7 @@ nav#nav.hide > #nav-upper #userDropdown #notification-badge {
 	margin-left: -5px;
 }
 #favoriteDropdownMenu>li>a, #latestDropdownMenu>li>a {
-	padding: 4px 3px 4px 10px;
+	padding: 2px 3px 2px 10px;
 }
 #nav.hide .dropdown .dropdown-menu-right {
 	position: fixed;
