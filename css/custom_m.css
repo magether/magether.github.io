@@ -286,6 +286,9 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #board-info>h1>a {
 	margin-left: 70px;
 }
+#board-info>h1>a.badge-live {
+	margin-left: 0;
+}
 #board-info #viewers-area .fa-user::before {
 	color: rgba(10,59,84,0);
 	content: '';
