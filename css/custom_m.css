@@ -2,11 +2,6 @@
 	margin-left: -20px;
 	overflow-y: hidden;
 }
-.frame div:nth-child(1) {
-	height: auto !important;
-    font-size:9pt;
-    line-height:0;
-}
 .frame ins, .article-list-row>ins {
 	height: auto !important;
 }
