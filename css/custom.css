@@ -141,13 +141,30 @@ header #right-search-form>#right-search-btn {
 }
 #board-info h1>a {
 	font-weight: 700;
+	transition: all 150ms ease-in-out;
+}
+#board-info h1>a:hover {
+	color:#3d65a5;
+}
+#board-info>h1 .badge-success {
+	background-color: #5e7fb5;
+}
+#board-info h1>a::before {
+	content: url('https://static-cdn.jtvnw.net/jtv_user_pictures/966edd9d-b459-4705-9b7f-3cc2de6fa18d-profile_image-300x300.png');
+    position: absolute;
+    zoom: 0.37;
+    left: 0;
+    top: 0;
+    margin: -47px 0 0 -33px;
+    filter: drop-shadow(0 0 8px rgba(0,0,0,0.5));
+    z-index: 1000;
 }
 #board-info #viewers-area .fa-user::before {
 	color: rgba(10,59,84,0);
 	content: url('https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/1');
 }
 #board-info #viewers-area #viewers {
-	color: #757575;
+	color: #3d65a5;
 	font-size: 12px;
 	font-weight: 700;
 	vertical-align: 2px;
@@ -156,7 +173,16 @@ header #right-search-form>#right-search-btn {
 	content: '마빻단 ';
 }
 #board-info #viewers-area #viewers::after {
-	content: '명 빼꼼~';
+	content: '명 빼꼼';
+}
+#board-info #board-info-profile-img {
+	display: none;
+}
+#board-info h1 {
+    padding-left:65px;
+}
+#board-info #board-info-bottom {
+    padding-left:65px;
 }
 
 /* ======= 게시글 ======= */
@@ -174,9 +200,9 @@ header #right-search-form>#right-search-btn {
 	border-bottom: 3px solid;
 }
 #article-list #article-list-category > a.active,#article-list #article-list-category>a:hover {
-	background: #656565;
-	color: #fff !important;
-	border-bottom: 3px solid #333;
+	background: #de8f85;
+    color: #ffffff !important;
+    border-bottom: 3px solid #bf6054;
 }
 #article-info>h2 {
 	font-weight: 700;
@@ -314,21 +340,7 @@ span.a-badge i.fa.fa-star {
 	80% {transform:scale(.75)}
 	100% {transform:scale(.75)}
 }
-#board-info #board-info-profile-img {
-    width:100px;
-    height:100px;
-    position:absolute;
-    top:0;
-    left:0;
-    margin: -20px 0 0 -4px;
-    filter: drop-shadow(0px 0px 8px #0006);
-}
-#board-info h1 {
-    padding-left:65px;
-}
-#board-info #board-info-bottom {
-    padding-left:65px;
-}
+
 /* ======= Darkmode ======= 
 
 @media (max-width:1258px) {

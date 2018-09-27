@@ -21,7 +21,7 @@ header.nav-up {
 	top: 0;
 }
 header>#header-area>a>h1 {
-	background-image: url(https://magether.github.io/images/magether_m1.png);
+	background-image: url('https://magether.github.io/images/magether_m1.png');
 	background-size: 91px 32px;
 	background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@ header:before {
 	left: 0;
 	height: 65px;
 	width: 100%;
-	background-image: url(https://magether.github.io/images/magether_m2.png);
+	background-image: url('https://magether.github.io/images/magether_m2.png');
 	background-size: 130px 65px;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -286,14 +286,15 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
     color: #c3d0e6;
 }
 #board-info>h1>#board-info-profile-img {
+	display: none;
+}
+#board-info h1>a::before {
+	content: url('https://static-cdn.jtvnw.net/jtv_user_pictures/966edd9d-b459-4705-9b7f-3cc2de6fa18d-profile_image-300x300.png');
     position: absolute;
-    width: 100px;
-    height: 100px;
-    line-height: 23px;
-    border: 0px solid #e7e7e7;
-    border-radius: 0;
-    margin-top: -18px;
-    margin-left: -11px;
+    zoom: 0.35;
+    left: 0;
+    margin: -55px 0 0 -19px;
+    filter: drop-shadow(0 0 8px rgba(0,0,0,0.5));
     z-index: 1000;
 }
 #board-info>h1>a {
@@ -308,7 +309,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	display: block;
 	width: 19px;
 	height: 19px;
-	background: url(https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/2);
+	background: url('https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/2');
 	background-size: 19px 19px;
 	background-repeat: no-repeat;
 }
