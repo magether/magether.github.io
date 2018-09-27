@@ -155,7 +155,7 @@ header #right-search-form>#right-search-btn {
     zoom: 0.37;
     left: 0;
     top: 0;
-    margin: -47px 0 0 -33px;
+    margin: -53px 0 0 -33px;
     filter: drop-shadow(0 0 8px rgba(0,0,0,0.5));
     z-index: 100;
 }
@@ -245,7 +245,7 @@ header #right-search-form>#right-search-btn {
 	color: #568895;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
-	width: 150px;
+	width: 165px;
 	height: 19px;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer>span img {
@@ -298,6 +298,54 @@ span.a-badge i.fa.fa-star {
 	background-position: center 2px;
 	animation: StarSS 2s infinite;
 }
+#article-list>.article-list-row.hot>.item div,
+#article-list>.article-list-row.hot>.item a,
+#article-list>.article-list-row.notice>.item div,
+#article-list>.article-list-row.notice>.item a {
+    border-bottom: 0px;
+}
+#article-list>.article-list-row.hot {
+    background-color: #f3f8ff;
+    border-top: 1px solid #8ab7ff;
+    border-bottom: 1px solid #8ab7ff;
+    -webkit-animation: ColorB 5s infinite;
+}
+#article-list>.article-list-row.notice {
+	background-color: #fff6f5;
+	border-top: 1px solid #ffd5d0;
+}
+#article-list>.article-list-row.hot>.item>.list-header>strong,
+#article-list>.article-list-row.hot>.item>.list-header>b,
+#article-list>.article-list-row.hot>.item>.list-title>.list-category>span,
+#article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span,
+#article-list>.article-list-row.hot>.item>.list-title>.a-badge>i.fa.fa-commenting-o,
+#article-list>.article-list-row.hot>.item>.list-title>small.comment-count,
+#article-list>.article-list-row.hot>.item>.list-time,
+#article-list>.article-list-row.hot>.item>.list-title>a,
+#article-list>.article-list-row.hot>.item>.list-title>a:visited {
+	color: #448bff;
+	-webkit-animation: ColorA 5s infinite; 
+}
+#article-list>.article-list-row.hot>.item>.list-title>.list-category,
+#article-list>.article-list-row.hot>.item>.list-title>.list-writer,
+#article-list>.article-list-row.hot {
+	border-left: 0;
+	border-right: 0;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer {
+	text-align: right;
+	border-left: 0;
+}
+#article-list>.article-list-row.hot>.item>.list-title>.list-category>span,
+#article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span,
+#article-list>.article-list-row.hot>.item>.list-title>small.comment-count,
+#article-list>.article-list-row.hot>.item>.list-title>a,
+#article-list>.article-list-row.hot>.item>.list-title>a:visited {
+	padding-top: 2px;
+}
+.fa-share:before {
+	content: "└";
+}
 
 /* ======= 효과 ======= */
 
@@ -339,6 +387,48 @@ span.a-badge i.fa.fa-star {
 	60% {transform:scale(1)}
 	80% {transform:scale(.75)}
 	100% {transform:scale(.75)}
+}
+@-webkit-keyframes ColorA {
+	0%{color: #67a6ff;}
+	20%{color: #ef6ee5;}
+	40%{color: #ff897a;}
+	60%{color: #97c566;}
+	100%{color: #67a6ff;}
+}
+@-moz-keyframes ColorA {
+	0%{color: #67a6ff;}
+	20%{color: #ef6ee5;}
+	40%{color: #ff897a;}
+	60%{color: #97c566;}
+	100%{color: #67a6ff;}
+}
+@keyframes ColorA {
+	0%{color: #67a6ff;}
+	20%{color: #ef6ee5;}
+	40%{color: #ff897a;}
+	60%{color: #97c566;}
+	100%{color: #67a6ff;}
+}
+@-webkit-keyframes ColorB {
+	0%{border-color: #67a6ff;background-color: #e4efff;}
+	20%{border-color: #ef6ee5;background-color: #ffecfe;}
+	40%{border-color: #ff897a;background-color: #ffefed;}
+	60%{border-color: #97c566;background-color: #f1ffe2;}
+	100%{border-color: #67a6ff;background-color: #e7f1ff;}
+}
+@-moz-keyframes ColorB {
+	0%{border-color: #67a6ff;background-color: #e4efff;}
+	20%{border-color: #ef6ee5;background-color: #ffecfe;}
+	40%{border-color: #ff897a;background-color: #ffefed;}
+	60%{border-color: #97c566;background-color: #f1ffe2;}
+	100%{border-color: #67a6ff;background-color: #e7f1ff;}
+}
+@keyframes ColorB {
+	0%{border-color: #67a6ff;background-color: #e4efff;}
+	20%{border-color: #ef6ee5;background-color: #ffecfe;}
+	40%{border-color: #ff897a;background-color: #ffefed;}
+	60%{border-color: #97c566;background-color: #f1ffe2;}
+	100%{border-color: #67a6ff;background-color: #e7f1ff;}
 }
 
 /* ======= Darkmode ======= 

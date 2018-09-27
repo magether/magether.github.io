@@ -476,6 +476,12 @@ footer {
 #article-list>.article-list-row.hot>.item>.list-time {
 	display: none;
 }
+#article-list>.article-list-row>.item>a.list-title {
+	line-height: 17px;
+}
+.fa-share:before {
+	content: "└";
+}
 
 /* ======= 효과 ======= */
 
