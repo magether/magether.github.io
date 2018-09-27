@@ -2,7 +2,12 @@
 	margin-left: -20px;
 	overflow-y: hidden;
 }
-.article-list-row>ins {
+.frame div:nth-child(1) {
+	height: auto !important;
+    font-size:9pt;
+    line-height:0;
+}
+.frame ins, .article-list-row>ins {
 	height: auto !important;
 }
 .article-list-row:not(.has-category) {
@@ -262,35 +267,42 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #board-info {
 	height: 85px;
-	background: #c08eff;
-    border-top: 1px solid #b56de8;
-    border-bottom: 2px solid #7d1ec2;
+    background: #c3d0e6;
+    border-top: 1px solid #759ad6;
+    border-bottom: 2px solid #759ad6;
 }
 #board-info>h1 {
 	width: 100%;
-	border-bottom: 1px solid #b56de8;
+	border-bottom: 1px solid #759ad6;
 	overflow: hidden;
 	white-space: nowrap;
-    background: #ecddff;
+    background: #dfe4ec;
 }
 #board-info>h1 .badge-success{
-	background-color: #7c1dc0;
+	background-color: #5e7fb5;
 }
 #board-info>a.board-right-menu {
 	border-left: none;
-	color: #52008e;
+	color: #4472bd;
 	padding: 12px 15px;
 }
+#board-info>a.board-right-menu:hover {
+	background: #4472bd;
+    color: #c3d0e6;
+}
 #board-info>h1>#board-info-profile-img {
-	position: absolute;
-	width: 67px;
-	height: 67px;
-	line-height: 23px;
-	border: 0px solid #e7e7e7;
-	border-radius: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 23px;
+    border: 0px solid #e7e7e7;
+    border-radius: 0;
+    margin-top: -18px;
+    margin-left: -11px;
+    z-index: 1000;
 }
 #board-info>h1>a {
-	margin-left: 70px;
+	margin-left: 85px;
 }
 #board-info>h1>a.badge-live {
 	margin-left: 0;
@@ -309,7 +321,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	color: #ffd535 !important;
 }
 #board-info #viewers-area #viewers {
-	color: #7a1cc0;
+	color: #3d65a5;
 	font-size: 12px;
 	font-weight: 700;
 	vertical-align: 2px;
@@ -318,7 +330,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	content: '마빻단 ';
 }
 #board-info #viewers-area #viewers::after {
-	content: '명 빼꼼~';
+	content: '명 빼꼼';
 }
 #article-info {
 	border-bottom: 3px solid #ff7777;
@@ -336,9 +348,9 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	border-bottom: 3px solid;
 }
 #article-list #article-list-category > a.active,#article-list #article-list-category>a:hover {
-	background: #656565;
-	color: #fff !important;
-	border-bottom: 3px solid #333;
+	background: #de8f85;
+    color: #ffffff !important;
+    border-bottom: 3px solid #bf6054;
 }
 #article-reply-area > .header h5 {
 	color: #3379b7;
