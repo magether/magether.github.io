@@ -314,7 +314,21 @@ span.a-badge i.fa.fa-star {
 	80% {transform:scale(.75)}
 	100% {transform:scale(.75)}
 }
-
+#board-info #board-info-profile-img {
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:0;
+    left:0;
+    margin: -20px 0 0 -4px;
+    filter: drop-shadow(0px 0px 8px #0006);
+}
+#board-info h1 {
+    padding-left:65px;
+}
+#board-info #board-info-bottom {
+    padding-left:65px;
+}
 /* ======= Darkmode ======= 
 
 @media (max-width:1258px) {

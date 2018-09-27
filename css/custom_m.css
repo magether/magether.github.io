@@ -262,17 +262,23 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #board-info {
 	height: 85px;
-	background: #f2f2f2;
+	background: #c08eff;
+    border-top: 1px solid #b56de8;
+    border-bottom: 2px solid #7d1ec2;
 }
 #board-info>h1 {
 	width: 100%;
-	border-bottom: 1px solid #e2e2e2;
+	border-bottom: 1px solid #b56de8;
 	overflow: hidden;
 	white-space: nowrap;
+    background: #ecddff;
+}
+#board-info>h1 .badge-success{
+	background-color: #7c1dc0;
 }
 #board-info>a.board-right-menu {
 	border-left: none;
-	color: #272727;
+	color: #52008e;
 	padding: 12px 15px;
 }
 #board-info>h1>#board-info-profile-img {
@@ -280,8 +286,8 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	width: 67px;
 	height: 67px;
 	line-height: 23px;
-	border: 3px solid #e7e7e7;
-	border-radius: 50%;
+	border: 0px solid #e7e7e7;
+	border-radius: 0;
 }
 #board-info>h1>a {
 	margin-left: 70px;
@@ -300,10 +306,10 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	background-repeat: no-repeat;
 }
 #board-info #addFavoriteBtn i {
-	color: #efc839 !important;
+	color: #ffd535 !important;
 }
 #board-info #viewers-area #viewers {
-	color: #757575;
+	color: #7a1cc0;
 	font-size: 12px;
 	font-weight: 700;
 	vertical-align: 2px;
