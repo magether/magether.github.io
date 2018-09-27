@@ -2,7 +2,7 @@
 	margin-left: -20px;
 	overflow-y: hidden;
 }
-.frame ins, .article-list-row>ins {
+.article-list-row>ins {
 	height: auto !important;
 }
 .article-list-row:not(.has-category) {
