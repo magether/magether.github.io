@@ -378,6 +378,7 @@ span.a-badge i.fa.fa-star {
     box-shadow: 0 0 0 0 #88d462;
 }
 .vote-area>.btn-outline-success:focus {
+	background-color: #94dc72;
     color:#ffffff !important;
 }
 .pagination {
