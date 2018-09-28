@@ -587,6 +587,29 @@ footer {
     background:#5eaaec !important;
     box-shadow: 0 1px 0 0 #4c95d4 !important;
 }
+#article-list-menu>.btn-default {
+    border:0 !important;
+    margin-top:0px!important;
+    margin-bottom:3px!important;
+    background:#c7c7c7 !important;
+    color:#ffffff !important;
+    font-weight:700 !important;
+    font-size: 9pt !important;
+    border-radius:5px !important;
+    box-shadow: 0 4px 0 0 #8a8a8a !important;
+}
+#article-list-menu>.btn-default:hover {
+    margin-top:2px!important;
+    margin-bottom:1px!important;
+    background:#b7b7b7 !important;
+    box-shadow: 0 2px 0 0 #8a8a8a !important;
+}
+#article-list-menu>.btn-default:active {
+    margin-top:3px!important;
+    margin-bottom:0px!important;
+    background:#b7b7b7 !important;
+    box-shadow: 0 1px 0 0 #8a8a8a !important;
+}
 #article-list #article-list-menu>.btn.best {
     border:0 !important;
     margin-top:0px!important;
