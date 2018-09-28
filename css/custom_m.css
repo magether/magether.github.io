@@ -517,17 +517,18 @@ footer {
     color:#ffffff !important;
     margin-top:3px;
     margin-bottom:3px;
-    background-color:#b5f596;
+	background-color: #94dc72;
     box-shadow: 0 3px 0 0 #88d462;
 }
 .vote-area>.btn-outline-success:active {
     color:#347713 !important;
     margin-top:6px;
     margin-bottom:0px;
-    background-color:#b5f596;
+	background-color: #94dc72;
     box-shadow: 0 0 0 0 #88d462;
 }
 .vote-area>.btn-outline-success:focus {
+	background-color: #94dc72;
     color:#ffffff !important;
 }
 .pagination {
