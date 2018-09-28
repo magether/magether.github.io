@@ -155,7 +155,7 @@ header #right-search-form>#right-search-btn {
 }
 #board-info h1>a::before {
 	content: '';
-    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/966edd9d-b459-4705-9b7f-3cc2de6fa18d-profile_image-300x300.png);
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/966edd9d-b459-4705-9b7f-3cc2de6fa18d-profile_image-300x300.png) no-repeat;
     background-size: 100px 100px;
     width: 100px;
     height: 100px;
