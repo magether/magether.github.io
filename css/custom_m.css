@@ -305,7 +305,6 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
     width: 80px;
     height: 80px;
     margin: -7px 0 0 7px;
-    filter: drop-shadow(0 0 4px rgba(0,0,0,.5));
     z-index: 100;
 }
 #board-info>h1>a {
