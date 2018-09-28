@@ -227,9 +227,6 @@ header #right-search-form>#right-search-btn {
 	background-color: transparent !important;
 	border: none;
 }
-#article-list>.article-list-row>.item>.list-title {
-	padding: 9px 0;
-}
 #article-list>.article-list-row>.item>.list-title>a {
 	max-width: 408px;
 }
@@ -337,15 +334,17 @@ span.a-badge i.fa.fa-star {
 	text-align: right;
 	border-left: 0;
 }
-#article-list>.article-list-row.hot>.item>.list-title>.list-category>span,
-#article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span,
-#article-list>.article-list-row.hot>.item>.list-title>small.comment-count,
-#article-list>.article-list-row.hot>.item>.list-title>a,
-#article-list>.article-list-row.hot>.item>.list-title>a:visited {
-	padding-top: 2px;
-}
 .fa-share:before {
 	content: "└";
+}
+#article-list>.article-list-row>.item>.list-checkbox,
+#article-list>.article-list-row>.item>.list-header,
+#article-list>.article-list-row>.item>.list-category,
+#article-list>.article-list-row>.item>.list-title,
+#article-list>.article-list-row>.item>.list-blocked,
+#article-list>.article-list-row>.item>.list-time {
+	padding: 11px 0 9px;
+	vertical-align: top;
 }
 
 /* ======= 버튼 ======= */
