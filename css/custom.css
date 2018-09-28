@@ -110,6 +110,10 @@ header #header-bar>.row {
 .dropdown-menu .divider {
 	background-color: #000000;
 }
+.delrow:hover {
+	background: none !important;
+    color: #000000 !important;
+}
 header #right-search-form {
 	padding: 72px 0 0;
 }
@@ -357,6 +361,7 @@ span.a-badge i.fa.fa-star {
     box-shadow: 0 6px 0 0 #88d462;
     outline:none !important;
     transition: color 100ms ease;
+    transition: background-color 100ms ease;
 }
 .vote-area>.btn-outline-success>i {
     font-size:16pt;

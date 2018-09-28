@@ -240,6 +240,13 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	line-height: 1;
 	color: #ffffff !important;
 }
+#userDropdownContainer>ul>li>a {
+	padding: 6px 10px;
+}
+.delrow:hover {
+	background: none !important;
+    color: #000000 !important;
+}
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
 	color: #333333 !important;
 	background: linear-gradient(-45deg, #d695ed, #f0a7c3);
@@ -505,6 +512,7 @@ footer {
     box-shadow: 0 6px 0 0 #88d462;
     outline:none !important;
     transition: color 100ms ease;
+    transition: background-color 100ms ease;
 }
 .vote-area>.btn-outline-success>i {
     font-size:16pt;
