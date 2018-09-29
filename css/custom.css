@@ -165,6 +165,9 @@ header #right-search-form>#right-search-btn {
     margin-top: -21px;
     z-index: 100;
 }
+#board-info>h1>a.badge-live::before {
+	display:none;
+}
 #board-info #viewers-area .fa-user::before {
 	color: rgba(10,59,84,0);
 	content: url('https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/1');
