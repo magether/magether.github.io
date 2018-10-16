@@ -831,3 +831,12 @@ nav#nav.hide > a {
 #article-list-row-7116706 .favo .fa-heart {animation: StarSS 900ms infinite;}
 #article-list-row-8915829 .favo .fa-heart {filter: hue-rotate(111deg)}
 #article-list-row-8915829 .item>.list-title>small.comment-count {color: #66a733 !important}
+#article-list-row-11369549 {
+    background: url('../images/bg_11369549.png') !important;
+    background-size: auto 59px !important;
+    background-position: 60% !important;
+    background-color: #ffd5d0 !important;
+}
+#article-list-row-11369549:hover {
+    background-color: #ffc0b9 !important;
+}
