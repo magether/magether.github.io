@@ -130,7 +130,9 @@ header #right-search-form>input[type=text] {
 header #right-search-form>#right-search-btn {
 	color: #555555;
 }
-
+header #header-bar #header-menu-right {
+	white-space: nowrap;
+}
 /* ======= 게시판상단 ======= */
 
 #board-info{
@@ -230,7 +232,7 @@ header #right-search-form>#right-search-btn {
 	border: none;
 }
 #article-list>.article-list-row>.item>.list-title>a {
-	max-width: 408px;
+	max-width: 360px;
 }
 #article-list>.article-list-row>.item>.list-title>a:visited {
 	color: #858585 !important;
