@@ -869,3 +869,13 @@ nav#nav.hide > a {
     position:relative;
     vertical-align:-5px;
 }
+
+/* ======= 알림 ======= */
+
+.alertify-logs>.show {
+margin-bottom: 3px;
+max-width: 280px;
+padding: 15px 20px;
+border-radius: 22px;
+font-weight: 700;
+}
