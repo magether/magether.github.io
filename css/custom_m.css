@@ -801,6 +801,11 @@ footer {
 		max-width: 130px;
 	}
 }
+@media (min-width: 480px) {
+	#article-list > .article-list-row > .item > a.list-title > .title-value {
+		max-width: 100%;
+	}
+}
 
 /* ======= 알림 ======= */
 
@@ -863,6 +868,7 @@ nav#nav.hide > a {
 #article-list-row-11369549:hover {
     background-color: #ffc0b9 !important;
 }
+#article-list-row-11398905 {margin-bottom: -4px;}
 #article-list-row-11398905 .list-writer>span>img {display:none}
 #article-list-row-11398905 .list-writer>span:before {
     content:url(https://magether.github.io/images/badge_magether.png);
