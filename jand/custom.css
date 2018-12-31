@@ -18,7 +18,7 @@ header .row>div:nth-child(1)>a {
 	width: 182px;
 	height: 122px;
 	margin-top: 25px;
-	background: url('./jand_logo3.svg') no-repeat;
+	background: url('./jand_logo3iv.svg') no-repeat;
 }
 body, html {
 	height: auto !important;
@@ -132,12 +132,12 @@ header #right-search-form {
 	padding: 72px 0 0;
 }
 header #right-search-form>input[type=text] {
-	border: 6px solid #ffffff;
-	color: #ffffff;
-	background: #333333;
+	border: 5px solid #333333;
+	color: #333333;
+	background: #ffffff;
 }
 header #right-search-form>#right-search-btn {
-	color: #ffffff;
+	color: #333333;
 	font-size: 24px;
 }
 header #header-bar #header-menu-right {
