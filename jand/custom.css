@@ -15,10 +15,10 @@
 
 header .row>div:nth-child(1)>a {
 	display: block;
-	width: 252px;
+	width: 192px;
 	height: 112px;
 	margin-top: 18px;
-	background: url('./jand_logo4iv.svg') no-repeat;
+	background: url('./jand_logo5.svg') no-repeat;
 }
 body, html {
 	height: auto !important;
@@ -134,7 +134,7 @@ header #header-bar>.row {
     color: #000000 !important;
 }
 header #right-search-form {
-	padding: 92px 0 0;
+	padding: 82px 0 0;
 }
 header #right-search-form>input[type=text] {
 	border: 5px solid #333333;
