@@ -24,7 +24,7 @@ body, html {
 	height: auto !important;
 }
 html {
-	padding: 18px;
+	padding: 36px;
 }
 body {
 	background: none;
@@ -39,7 +39,7 @@ body::before {
 	width: 100%;
 	height: 100%;
 	min-width: 1180px;
-	border: 18px solid #60ba6f;
+	border: 36px solid #ecf3f0;;
 	z-index: -1000;
 }
 header .row>div:nth-child(1)>a img {
