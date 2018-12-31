@@ -23,12 +23,6 @@ header .row>div:nth-child(1)>a {
 body, html {
 	height: auto !important;
 }
-html {
-	padding: 60px 45px 45px;
-	background-color: #fff;
-	background: url('./bg.svg') no-repeat;
-	background-size: 250px 60px;
-}
 body {
 	background: none;
 	min-width: 1140px;
