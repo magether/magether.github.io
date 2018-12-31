@@ -75,7 +75,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background: #333333;
 }
 header #header-bar>.row {
-	background: linear-gradient(45deg, #f88a31, #ff7854, #ffd954, #ff7b0f);
+	background: linear-gradient(45deg, #ffbc85, #ff7854, #ffd954, #ff7b0f);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -283,7 +283,7 @@ header #header-bar #header-menu-right {
 .fr-toolbar {
 	border-top: 5px solid #d695ed;
 	border-style: solid;
-	border-image: linear-gradient(45deg, #f88a31, #ff7854, #ffd954, #ff7b0f);
+	border-image: linear-gradient(45deg, #82de64, #d5ff54, #e5ff54, #a2de0e);
 	border-image-slice: 1;
 	border-image-width: 5px 0 0 0;
 }
