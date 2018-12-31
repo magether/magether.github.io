@@ -358,6 +358,9 @@ header #header-bar #header-menu-right {
 	background-color: #5cad5e;
     border-color: #5cad5e;
 }
+#article-list>.article-list-row>.item>.list-title>small.favo {
+	color: #98e282;
+}
 
 /* ======= 효과 ======= */
 
