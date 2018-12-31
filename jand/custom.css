@@ -24,12 +24,15 @@ body, html {
 	height: auto !important;
 }
 html {
-	padding: 36px;
+	padding: 60px 45px 45px;
+	background-color: #fff;
+	background: url('./bg.svg') no-repeat;
+	background-size: 250px 60px;
 }
 body {
 	background: none;
 	min-width: 1140px;
-	background: linear-gradient(135deg,#cee6d2,#c3ecdd);
+	background: linear-gradient(135deg,#cee6d2,#edfff9);
 }
 /* body::before {
 	content: '';
