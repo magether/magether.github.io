@@ -15,10 +15,10 @@
 
 header .row>div:nth-child(1)>a {
 	display: block;
-	width: 180px;
-	height: 112px;
+	width: 182px;
+	height: 122px;
 	margin-top: 25px;
-	background: url('./jand_logo2.svg') no-repeat;
+	background: url('./jand_logo3.svg') no-repeat;
 }
 body, html {
 	height: auto !important;
