@@ -1,0 +1,265 @@
+/* 로고밑 NAV bar */
+
+header {
+  border-bottom: 4px solid #26CD3D;
+  border-radius: 0 0 15px 15px;
+}
+nav#nav>.nav-header{
+background:#26CD3D;
+}
+/* 헤더 배너 */
+
+header>#header-area>a>h1 {
+   width: 150px;
+   height: 37px;
+  background: url(https://upload.tgd.kr/20180907/7135be6ea54be5f738e892c410685a0f.png) no-repeat center center;
+  background-size:contain;
+}
+
+header .row>div:nth-child(1)>a>img {
+  display: block;
+ 
+ filter: grayscale(100%);
+  opacity: 0;
+}
+/* 검색폼 보더 */
+header > #header-search-bar #header-close-search-btn{
+color:#26CD3D;
+}
+header #right-search-form>input[type='text'] {
+  border: 3px solid #26CD3D;
+  border-radius: 10px;
+  
+}
+
+/* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
+
+#main .menu-wrapper>.header {
+  background: #26CD3D;
+  border-radius: 10px 10px 0 0;
+}
+
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  color: white;
+}
+
+.fa-square:before {
+  color: #8FFF86;
+}
+
+header #header-bar>.row,
+#main .menu-wrapper,
+#main #main-content>div.frame {
+  border-right: none;
+  border-bottom: none;
+border-radius: 10px 10px 0 0;
+}
+
+#main .menu-wrapper {
+  border: none;
+}
+
+/* 헤더 검색 버튼 */
+
+header #right-search-form>#right-search-btn {
+  color: #26CD3D;
+}
+
+/* 헤더 [광고]배경색 */
+
+#header-top-notice strong.notice-badge {
+  background: #26CD3D;
+  border-radius : 10px
+}
+
+/* fa색상 */
+
+header #header-bar .fa {
+  color: #13ff00;
+}
+
+/* 스트리머 게시판 상단 정보 글씨색상 */
+
+#board-info #board-info-bottom a {
+  color: #26CD3D;
+}
+
+/* 좌측메뉴 숏컷링크 글씨 색상 */
+
+#main .menu-wrapper>a>em {
+  color: #8FFF86;
+}
+
+/* 좌측메뉴 메뉴사이의 공간 색상 */
+
+#main .menu-wrapper .spacer {
+  background: #8FFF86;
+  height: 0.15em;
+}
+
+/* 게시글 관련부분 */
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 2px solid #26CD3D;
+  background: white;
+}
+
+#article-list #article-list-category>a {
+  background: white;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #26CD3D;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #26CD3D;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #26CD3D;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #26CD3D;
+  border-color: #26CD3D;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #26CD3D;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #26CD3D;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #26CD3D;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #26CD3D;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-info>h2>span.category {
+  color: #26CD3D !important;
+}
+
+#article-reply-area>.header h5 {
+  color: #26CD3D;
+}
+
+#main .menu-wrapper>a {
+  padding: 0.5em 1.4em 0.5em 0.7em !important;
+}
+
+a {
+  color: #26CD3D;
+}
+
+span.a-badge i.fa.fa-info-circle {
+  color: #26CD3D;
+}
+
+/* footer */
+
+#article-list>.article-list-row {
+  border-right: none;
+}
+
+#article-list #article-list-menu {
+  box-sizing: border-box;
+  width: unset;
+  margin: 20px;
+}
+
+#article-list #boardSearchForm {
+  padding-bottom: 20px;
+  height: unset;
+}
+
+.btn-primary {
+  background: #26CD3D !important;
+  border-color : #1e9c30
+}
+#board-info #viewers-area .fa-user:before{
+     color: rgba(10,59,84,0);
+    content: url(https://upload.tgd.kr/20180907/e7dd783bece4e199b51e9b04989adce0.png);
+}
+
+#board-info #viewers-area #viewers:before{
+content: "잔빡이";
+cursor: text;
+}
+#board-info #viewers-area #viewers:after {
+    content: "명이 잔디에 물주는중";
+    cursor: text;
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+ color:#26CD3D
+}
+header>#header-area>#header-search-link{
+color:#26CD3D;
+}
+header > #header-search-bar #header-search-input{
+border: 2px solid #26CD3D;
+}
+header > #header-search-bar #header-search-btn{
+color:#26CD3D;
+}
+nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active{
+color: #26cd3d
+}
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span{
+color: #26cd3d
+}
+#article-list>.article-list-row>.item>a.list-title>small.comment-count{
+color: #26cd3d
+}
+#board-info>h1>#board-info-profile-img {
+    width: 42px;
+    height: 42px;
+    line-height: 23px;
+    border-radius: 50%;
+    border: 2px solid #26cd3d;
+}
+.fa-twitch:before {
+    color: #6441A5;
+}
+.fa-star:before{
+color:#f39504
+}
+.fa-money:before{
+color:#26cd3d
+}
+#board-info{
+overflow:hidden;
+}
+#board-info>a.board-right-menu{
+border:none;
+}
+
+#board-info>h1{
+width:100%
+}
