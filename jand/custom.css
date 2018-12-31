@@ -88,6 +88,7 @@ header #header-bar>.row {
 	border: none;
 	border-top: 4px solid rgba(255, 255, 255, 0);
 	border-radius: 25px;
+	padding: 0.3em 8px;
 }
 #header-bar .dropdown .dropdown-menu {
 	display: block !important;
@@ -173,11 +174,11 @@ header #header-bar #header-menu-right {
 #board-info h1>a::before {
 	content: '';
     background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/7fb1c2ca-ea1c-4a33-917d-5d9093e53783-profile_image-300x300.png) no-repeat;
-	background-size: 85px 85px;
+	background-size: 92px;
     width: 85px;
     height: 85px;
     position: absolute;
-    left: 6px;
+    left: 8px;
     top: -8px;
     margin-top: 0;
     z-index: 100;
@@ -185,7 +186,7 @@ header #header-bar #header-menu-right {
     border-top-left-radius: 15%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-bottom-left-radius: 15%;
 }
 #board-info>h1>a.badge-live::before {
 	display:none;
@@ -349,12 +350,6 @@ header #header-bar #header-menu-right {
 	padding: 11px 0 9px;
 	vertical-align: top;
 }
-#article-list #article-list-menu>.btn.best {
-	margin-left: 20px;
-}
-#article-list #article-list-menu>.btn.btn-primary {
-	margin-right: 20px;
-}
 .pagination>li>a, .pagination>li>span {
 	color: #5cad5e;
 }
@@ -362,11 +357,11 @@ header #header-bar #header-menu-right {
 	background-color: #5cad5e;
     border-color: #5cad5e;
 }
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	color: #28c34c;
+}
 #article-list>.article-list-row>.item>.list-title>small.favo {
 	color: #98e282;
-}
-#article-list #article-list-menu>.btn.cog {
-	left: 105px;
 }
 #main .menu-wrapper>a>i.fa.fa-square {
 	color: #94ce9c;
