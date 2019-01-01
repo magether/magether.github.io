@@ -342,7 +342,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	content: '명 빼꼼';
 }
 #article-info {
-	border-bottom: 3px solid #ff7777;
+	border-bottom: 3px solid #44a324;
 	padding: 18px 14px 12px;
 }
 #article-list {
@@ -391,7 +391,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
 	color: #5cad5e;
-	background-color: #ffcfcf;
+	background-color: #d7f3d7;
 	border-color: #5cad5e;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
