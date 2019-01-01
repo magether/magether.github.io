@@ -336,7 +336,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	vertical-align: 2px;
 }
 #board-info #viewers-area #viewers::before {
-	content: '마빻단 ';
+	content: '잔빡이 ';
 }
 #board-info #viewers-area #viewers::after {
 	content: '명 빼꼼';
