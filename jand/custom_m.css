@@ -40,7 +40,7 @@ header>#header-area {
 	width: 92%;
 	height: 45px;
 	margin: 10px 4%;
-	background: rgba(205, 236, 213, 0.85);
+	background: rgba(205, 236, 213, 0.95);
 	border-radius: 25px;
 	-webkit-backdrop-filter: saturate(180%) blur(5px);
 	padding: 5px 0;
@@ -103,7 +103,7 @@ header.nav-down:before {
 header>#header-search-bar {
 	position: fixed;
 	width: 92%;
-	background: rgba(205, 236, 213, 0.85);
+	background: rgba(205, 236, 213, 0.95);
 	border-radius: 25px;
 	height: 45px;
 	margin: 10px 4%;
@@ -176,6 +176,9 @@ body {
 	width: 0;
 	opacity: 0;
 }
+nav#nav {
+	background: #f3ffe6 !important;
+}
 nav#nav>#nav-upper>#header-close-bar-link {
 	padding: 11px 16px 8px;
 }
@@ -200,15 +203,15 @@ nav#nav > #nav-upper #noteDropdownContainer>a {
 	line-height: 37px;
 }
 nav#nav>.nav-header {
-	background: #333333;
-	color: #ffffff;
+	background: #c3e6c8;
+	color: #12562c;
 	font-size: 17px;
 	font-weight: 300;
-	border-top: 1px solid #adadad;
-	border-bottom: 2px solid #adadad;
+	border-top: 1px solid #359e5e;
+	border-bottom: 2px solid #359e5e;
 }
 nav#nav>.nav-header>a {
-	color: #ffffff;
+	color: #12562c;
 	font-size: 17px;
 	font-weight: 100;
 }
