@@ -84,8 +84,12 @@ header:after {
 	transform-origin: 50% 0%;
 	opacity: 0;
 }
-header.nav-up>#header-area {opacity: 0;}
-header.nav-down>#header-area {opacity: 1;}
+header.nav-up>#header-area {
+	background: rgba(205, 236, 213, 0);
+}
+header.nav-down>#header-area {
+	/* */
+}
 header.nav-up:after {
 	opacity: 1;
 }
@@ -99,12 +103,14 @@ header.nav-down:before {
 header>#header-search-bar {
 	position: fixed;
 	width: 92%;
-	background: rgba(244, 240, 244, 0.85);
+	background: rgba(205, 236, 213, 0.85);
+	border-radius: 25px;
 	height: 45px;
 	margin: 10px 4%;
 	top: 0;
 	left: 0;
 	padding: 4px 0;
+	z-index: 3050;
 }
 header > #header-search-bar #header-search-form {
 	justify-content: space-between;
