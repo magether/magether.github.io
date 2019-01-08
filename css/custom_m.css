@@ -885,3 +885,21 @@ padding: 15px 20px;
 border-radius: 22px;
 font-weight: 700;
 }
+
+/* ======= 뱃지 ======= */
+
+img[src*="https://static-cdn.jtvnw.net/badges/v1/1a93b37b-5ea1-4f65-83f7-a3d11687ea51/1"] {display: none;}
+img[src*="https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/1"] {
+	background:url('https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/2');
+	background-size:18px;
+	width:18px;
+	height:18px;
+	padding-left:18px;
+}
+img[src*="https://static-cdn.jtvnw.net/badges/v1/691852ab-5370-4833-b0ba-78ff216194cb/1"] {
+	background:url('../images/youtube36.png');
+	background-size:18px;
+	width:18px;
+	height:18px;
+	padding-left:18px;
+}
