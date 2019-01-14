@@ -908,7 +908,7 @@ img[src*="https://static-cdn.jtvnw.net/badges/v1/691852ab-5370-4833-b0ba-78ff216
 
 img[src*='https://static-cdn.jtvnw.net/emoticons/v1/69/1.0'] {
 	background:url('../images/bloodtrail3x.png');
-	background-size:28px;
+	background-size:41px 28px;
 	height:28px !important;
 	width:41px;
 	padding-left:41px;
