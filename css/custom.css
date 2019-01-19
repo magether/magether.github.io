@@ -992,5 +992,6 @@ img[src*='https://static-cdn.jtvnw.net/emoticons/v1/1209014/1.0'] {
     color: #ffff00;
     font-weight: 700;
     font-size: 12pt;
-    border-radius: 12px; 
+    border-radius: 12px;
+    white-space: normal;
 }
