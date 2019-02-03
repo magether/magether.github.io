@@ -99,6 +99,7 @@ header.nav-up:before {
 }
 header.nav-down:before {
 	opacity: 0;
+	height: 0;
 }
 header>#header-search-bar {
 	position: fixed;
