@@ -1,78 +1,3 @@
-#log>div.deleted {visibility: hidden}
-#log .emote_wrap {position: relative}
-#log .emote_wrap img.emoticon {
-  height: $font_sizepx;
-  vertical-align: middle;
-  margin: -5px 0;
-}
-.badge,.colon,.name {
-  display: inline-block;
-  vertical-align: top
-}
-#log .meta {
-  padding-right: 4px;
-  position: relative;
-}
-.badge {
-  margin-right: 4px;
-  height: 1em
-}
-
-.colon,
-.name {
-  height: 24px;
-  color: var(--color);
-  filter: brightness(1.6);
-  text-shadow: #000 0px 1px 1px,#000 0px 1px 1px,#000 0px 1px 1px,#000 0px 1px 1px,#000 0px 0px 1px,#000 0px 0px 1px,#000 0px 0px 1px,#000 0px 0px 1px,
-    var(--color) -1px -1px 1px, var(--color) -1px 0px 1px, var(--color) 0px -1px 1px, var(--color) 1px -1px 1px, var(--color) 2px -1px 1px, var(--color) 3px -1px 1px, var(--color) 3px 1px 1px, var(--color) 3px 0px 1px, var(--color) 0px 3px 1px, var(--color) 3px 3px 1px;
-
-}
-body,
-html {
-  height: 100%;
-  overflow: hidden
-}
-#log {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 0 10px 10px;
-  width: 100%;
-  box-sizing: border-box;
-  text-shadow: #00000040 -1px -1px 1px, #00000040 -1px 0px 1px, #00000040 0px -1px 1px, #00000040 1px -1px 1px, #00000040 2px -1px 1px, #00000040 3px -1px 1px, #00000040 3px 1px 1px, #00000040 3px 0px 1px, #00000040 0px 3px 1px, #00000040 3px 3px 1px;
-}
-body {
-  -webkit-mask-image: -webkit-gradient(linear,left 10%,left top,from(rgba(0,0,0,1)),to(rgba(0,0,0,0)));
-  -webkit-mask-image: -webkit-gradient(linear,left 20%,left top,from(rgba(0,0,0,1)),to(rgba(0,0,0,0)));
-}
-#log>div {
-  padding-bottom: .25em;
-  word-wrap: break-word;
-}
-body {
-  background: $background_color;
-  color: $text_color;
-  font-size: $font_sizepx;
-  font-family: '$font_face', sans-serif;
-  font-weight: 700;
-}
-#log {
-  font-size:.8em;
-  font-weight: bolder;
-}
-#log>div {
-  animation: fadeOut 1s ease $message_hide_delays forwards;
-}
-span.message > img {
-  height: 1em;
-}
-img[src*='//static-cdn.jtvnw.net/emoticons/v1/69/1.0'] {
-  background:url('https://magether.github.io/images/bloodtrail3x.png');
-  background-size:41px 28px;
-  height:28px !important;
-  width:0px;
-  padding-left:41px;
-}
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1771334/1.0'] {
   background:url('//static-cdn.jtvnw.net/emoticons/v1/1771334/3.0');
 }
@@ -169,7 +94,7 @@ img[src*='//static-cdn.jtvnw.net/emoticons/v1/1515731/1.0'],
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1380196/1.0'],
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/952854/1.0'], 
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1209014/1.0'] {
-  background-size:$font_sizepx;
-  padding-left:$font_sizepx;
-  width:0;
+  background-size: 58px;
+  padding-left: 58px;
+  width: 0;
 }
