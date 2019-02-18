@@ -866,6 +866,13 @@ img[src*="https://static-cdn.jtvnw.net/badges/v1/691852ab-5370-4833-b0ba-78ff216
 	height:18px;
 	padding-left:18px;
 }
+img[src*="https://static-cdn.jtvnw.net/badges/v1/286a95ec-8869-4783-a9fa-2a21e80e4515/1"] {
+	background:url('../images/badge2x_magether.png');
+	background-size:39px;
+	width:39px;
+	height:18px;
+	padding-left:39px;
+}
 
 /* ======= 구독티콘 ======= */
 
