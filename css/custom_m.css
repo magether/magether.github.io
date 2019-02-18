@@ -868,6 +868,20 @@ nav#nav.hide > a {
 #article-list-row-11369549:hover {
     background-color: #ffc0b9 !important;
 }
+.box18073118 {
+    text-align:center;
+    margin:5px;
+    padding:5px 8px;
+    border:1px solid #ccc;
+    float:left;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 300ms ease;
+}
+.box18073118:hover {
+    background: #6c26a7;
+    color: #fff;
+}
 
 /* ======= 알림 ======= */
 
