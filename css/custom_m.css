@@ -868,13 +868,6 @@ nav#nav.hide > a {
 #article-list-row-11369549:hover {
     background-color: #ffc0b9 !important;
 }
-#article-list-row-11398905 {margin-bottom: -4px;}
-#article-list-row-11398905 .list-writer>span>img {display:none}
-#article-list-row-11398905 .list-writer>span:before {
-    content:url(https://magether.github.io/images/badge_magether.png);
-    position:relative;
-    vertical-align:-5px;
-}
 
 /* ======= 알림 ======= */
 
