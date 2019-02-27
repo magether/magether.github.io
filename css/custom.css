@@ -861,7 +861,7 @@ font-weight: 700;
 
 img[src*="https://static-cdn.jtvnw.net/badges/v1/1a93b37b-5ea1-4f65-83f7-a3d11687ea51/1"] {display: none;}
 img[src*="https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/1"] {
-	background:url('https://static-cdn.jtvnw.net/badges/v1/7c801e78-6af9-47e0-8752-be3f571f02af/2');
+	background:url('https://static-cdn.jtvnw.net/badges/v1/bc612db1-c089-480e-9cbf-e52582cda530/2');
 	background-size:18px;
 	width:18px;
 	height:18px;
@@ -880,6 +880,13 @@ img[src*="https://static-cdn.jtvnw.net/badges/v1/286a95ec-8869-4783-a9fa-2a21e80
 	width:39px;
 	height:18px;
 	padding-left:39px;
+}
+img[src*="https://static-cdn.jtvnw.net/badges/v1/bc612db1-c089-480e-9cbf-e52582cda530/1"] {
+	background:url('https://static-cdn.jtvnw.net/badges/v1/bc612db1-c089-480e-9cbf-e52582cda530/2');
+	background-size:18px;
+	width:18px;
+	height:18px;
+	padding-left:18px;
 }
 
 /* ======= 구독티콘 ======= */
