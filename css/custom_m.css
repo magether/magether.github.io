@@ -67,7 +67,7 @@ header:after {
 	z-index: 3000;
 	top: 45px;
 	left: 0;
-	background: linear-gradient(-45deg, #d695ed, #f0a7c3, #9ea3e3, #93efd9);
+	background: linear-gradient(-45deg,#ffb8b8,#d7abff,#9ea3e3,#93efd9);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
