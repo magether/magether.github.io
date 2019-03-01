@@ -98,3 +98,13 @@ img[src*='//static-cdn.jtvnw.net/emoticons/v1/1209014/1.0'] {
   padding-left: 58px;
   width: 0;
 }
+div[data-from='nightbot'] .name,
+div[data-from='nightbot'] .partner-icon {
+  display: none
+}
+div[data-from='nightbot'] img[src*='https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/3'] {
+  background: url(https://magether.github.io/images/badge_maruko_night.png);
+  background-size: 1em;
+  padding-left: 1em;
+  width: 0;
+}
