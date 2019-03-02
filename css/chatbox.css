@@ -47,8 +47,8 @@ img[src*='//static-cdn.jtvnw.net/emoticons/v1/1515731/1.0'],
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1380196/1.0'],
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/952854/1.0'], 
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1209014/1.0'] {
-  background-size: 1em;
-  padding-left: 1em;
+  background-size: 58px;
+  padding-left: 58px;
   width: 0;
 }
 div[data-from='nightbot'] .name,
