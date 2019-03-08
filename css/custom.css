@@ -350,6 +350,10 @@ span.a-badge i.fa.fa-star {
 	padding: 11px 0 9px;
 	vertical-align: top;
 }
+#article-list #article-option-area>#article-option-area-toggle-btn {
+	background: transparent !important;
+	margin-right: 16px;
+}
 
 /* ======= 버튼 ======= */
 
