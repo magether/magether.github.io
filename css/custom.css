@@ -862,3 +862,241 @@ padding: 15px 20px;
 border-radius: 22px;
 font-weight: 700;
 }
+
+/* ======= 공지 ======= */
+
+.frame>ins {
+    height:90px;
+    background:url('../images/ins-bg.gif') no-repeat;
+}
+#article-list {
+    margin-top:0px;
+}
+#article-list-row-11398905 {
+    border-top:0px!important;
+}
+#article-list-row-11398905>.item>.list-header,
+#article-list-row-11398905>.item>.list-time,
+#article-list-row-11398905>.item>.list-title>div,
+#article-list-row-11398905>.item>.list-title>span,
+#article-list-row-11398905>.item>.list-title>small
+{
+    display:none!important;
+}
+#article-list-row-11398905>.item>.list-title {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+}
+#article-list-row-11398905>.item>.list-title>a {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+    height:0!important;
+}
+#article-list-row-11398905>.item>.list-title>a:before {
+    content:'aaaaa';
+    display:block!important;
+    position:absolute;
+    width:54px;
+    height:54px;
+    background:url('../images/notice_btn02.png') no-repeat;
+    background-size:54px;
+    top:-155px;
+    right:318px;
+    filter:brightness(1.0);
+}
+#article-list-row-11398905>.item>.list-title>a:hover:before {
+    filter:brightness(1.1);
+}
+
+
+#article-list-row-2894539 {
+    border-top:0px!important;
+}
+#article-list-row-2894539>.item>.list-header,
+#article-list-row-2894539>.item>.list-time,
+#article-list-row-2894539>.item>.list-title>div,
+#article-list-row-2894539>.item>.list-title>span,
+#article-list-row-2894539>.item>.list-title>small
+{
+    display:none!important;
+}
+#article-list-row-2894539>.item>.list-title {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+}
+#article-list-row-2894539>.item>.list-title>a {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+    height:0!important;
+}
+#article-list-row-2894539>.item>.list-title>a::before {
+    content:'aaaaa';
+    display:block!important;
+    position:absolute;
+    width:54px;
+    height:54px;
+    background:url('../images/notice_btn03.png') no-repeat;
+    background-size:54px;
+    top:-155px;
+    right:258px;
+    filter:brightness(1.0);
+}
+#article-list-row-2894539>.item>.list-title>a:hover:before {
+    filter:brightness(1.1);
+}
+
+#article-list-row-18678084 {
+    border-top:0px!important;
+}
+#article-list-row-18678084>.item>.list-header,
+#article-list-row-18678084>.item>.list-time,
+#article-list-row-18678084>.item>.list-title>div,
+#article-list-row-18678084>.item>.list-title>span,
+#article-list-row-18678084>.item>.list-title>small
+{
+    display:none!important;
+}
+#article-list-row-18678084>.item>.list-title {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+}
+#article-list-row-18678084>.item>.list-title>a {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+    height:0!important;
+}
+#article-list-row-18678084>.item>.list-title>a::before {
+    content:'aaaaa';
+    display:block!important;
+    position:absolute;
+    width:54px;
+    height:54px;
+    background:url('../images/notice_btn06.png') no-repeat;
+    background-size:54px;
+    top:-155px;
+    right:198px;
+    filter:brightness(1.0);
+}
+#article-list-row-18678084>.item>.list-title>a:hover:before {
+    filter:brightness(1.1);
+}
+
+#article-list-row-18073118 {
+    border-top:0px!important;
+}
+#article-list-row-18073118>.item>.list-header,
+#article-list-row-18073118>.item>.list-time,
+#article-list-row-18073118>.item>.list-title>div,
+#article-list-row-18073118>.item>.list-title>span,
+#article-list-row-18073118>.item>.list-title>small
+{
+    display:none!important;
+}
+#article-list-row-18073118>.item>.list-title {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+}
+#article-list-row-18073118>.item>.list-title>a {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+    height:0!important;
+}
+#article-list-row-18073118>.item>.list-title>a::before {
+    content:'aaaaa';
+    display:block!important;
+    position:absolute;
+    width:54px;
+    height:54px;
+    background:url('../images/notice_btn01.png') no-repeat;
+    background-size:54px;
+    top:-155px;
+    right:138px;
+    filter:brightness(1.0);
+}
+#article-list-row-18073118>.item>.list-title>a:hover:before {
+    filter:brightness(1.1);
+}
+
+#article-list-row-4362381 {
+    border-top:0px!important;
+}
+#article-list-row-4362381>.item>.list-header,
+#article-list-row-4362381>.item>.list-time,
+#article-list-row-4362381>.item>.list-title>div,
+#article-list-row-4362381>.item>.list-title>span,
+#article-list-row-4362381>.item>.list-title>small
+{
+    display:none!important;
+}
+#article-list-row-4362381>.item>.list-title {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+}
+#article-list-row-4362381>.item>.list-title>a {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+    height:0!important;
+}
+#article-list-row-4362381>.item>.list-title>a::before {
+    content:'aaaaa';
+    display:block!important;
+    position:absolute;
+    width:54px;
+    height:54px;
+    background:url('../images/notice_btn04.png') no-repeat;
+    background-size:54px;
+    top:-155px;
+    right:78px;
+    filter:brightness(1.0);
+}
+#article-list-row-4362381>.item>.list-title>a:hover:before {
+    filter:brightness(1.1);
+}
+
+#article-list-row-20046145 {
+    border-top:0px!important;
+}
+#article-list-row-20046145>.item>.list-header,
+#article-list-row-20046145>.item>.list-time,
+#article-list-row-20046145>.item>.list-title>div,
+#article-list-row-20046145>.item>.list-title>span,
+#article-list-row-20046145>.item>.list-title>small
+{
+    display:none!important;
+}
+#article-list-row-20046145>.item>.list-title {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+}
+#article-list-row-20046145>.item>.list-title>a {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+    height:0!important;
+}
+#article-list-row-20046145>.item>.list-title>a::before {
+    content:'aaaaa';
+    display:block!important;
+    position:absolute;
+    width:54px;
+    height:54px;
+    background:url('../images/notice_btn05-2.png') no-repeat;
+    background-size:54px;
+    top:-155px;
+    right:18px;
+    filter:brightness(1.0);
+}
+#article-list-row-20046145>.item>.list-title>a:hover:before {
+    filter:brightness(1.1);
+}
