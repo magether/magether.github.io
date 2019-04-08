@@ -866,8 +866,8 @@ font-weight: 700;
 /* ======= 공지 ======= */
 
 .frame>ins {
-    height:90px;
-    background:url('../images/ins-bg.gif') no-repeat;
+    height:90px !important;
+    background:url('../images/ins-bg.gif') no-repeat !important;
 }
 #article-list {
     margin-top:0px;
