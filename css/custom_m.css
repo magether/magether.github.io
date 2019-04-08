@@ -897,7 +897,7 @@ font-weight: 700;
 
 /* ======= 공지 ======= */
 
-#article-list {
+#article-list>.notice:nth-child(3) {
     margin-top:64px;
 }
 #article-list-row-11398905 {
@@ -924,9 +924,9 @@ font-weight: 700;
     height:54px;
     background:url('../images/notice_btn02.png') no-repeat;
     background-size:54px;
-    top:-58px;
-    left:20%;
-    margin-left:-18%;
+    top:51px;
+    left:16.2%;
+    margin-left:-15%;
 }
 
 
@@ -954,9 +954,9 @@ font-weight: 700;
     height:54px;
     background:url('../images/notice_btn03.png') no-repeat;
     background-size:54px;
-    top:-58px;
-    left:40%;
-    margin-left:-18%;
+    top:51px;
+    left:32.4%;
+    margin-left:-15%;
 }
 #article-list-row-18678084 {
     border-top:0px!important;
@@ -982,9 +982,9 @@ font-weight: 700;
     height:54px;
     background:url('../images/notice_btn06.png') no-repeat;
     background-size:54px;
-    top:-58px;
-    left:60%;
-    margin-left:-18%;
+    top:51px;
+    left:48.6%;
+    margin-left:-15%;
 }
 
 #article-list-row-18073118 {
@@ -1011,9 +1011,9 @@ font-weight: 700;
     height:54px;
     background:url('../images/notice_btn01.png') no-repeat;
     background-size:54px;
-    top:-58px;
-    left:80%;
-    margin-left:-18%;
+    top:51px;
+    left:64.8%;
+    margin-left:-15%;
 }
 #article-list-row-20046145 {
     border-top:0px!important;
@@ -1039,7 +1039,35 @@ font-weight: 700;
     height:54px;
     background:url('../images/notice_btn05-2.png') no-repeat;
     background-size:54px;
-    top:-58px;
-    left:100%;
-    margin-left:-18%;
+    top:51px;
+    left:81%;
+    margin-left:-15%;
+}
+#article-list-row-4362381 {
+    border-top:0px!important;
+}
+#article-list-row-4362381>.item>.list-header,
+#article-list-row-4362381>.item>.list-time,
+#article-list-row-4362381>.item>.list-title>div,
+#article-list-row-4362381>.item>.list-title>span,
+#article-list-row-4362381>.item>.list-title>small
+{
+    display:none!important;
+}
+#article-list-row-4362381>.item>.list-title {
+    font-size:0px!important;
+    padding:0!important;
+    line-height:0px!important;
+}
+#article-list-row-4362381>.item>a::before {
+    content:'aaaaa';
+    display:block!important;
+    position:absolute;
+    width:54px;
+    height:54px;
+    background:url('../images/notice_btn04.png') no-repeat;
+    background-size:54px;
+    top:51px;
+    left:97.2%;
+    margin-left:-15%;
 }
