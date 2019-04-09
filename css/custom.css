@@ -881,8 +881,7 @@ font-weight: 700;
 #article-list-row-11398905>.item>.list-time,
 #article-list-row-11398905>.item>.list-title>div,
 #article-list-row-11398905>.item>.list-title>span,
-#article-list-row-11398905>.item>.list-title>small,
-#article-list-row-20046145>.item>.list-checkbox
+#article-list-row-11398905>.item>.list-title>small
 {
     display:none!important;
 }
@@ -921,8 +920,7 @@ font-weight: 700;
 #article-list-row-2894539>.item>.list-time,
 #article-list-row-2894539>.item>.list-title>div,
 #article-list-row-2894539>.item>.list-title>span,
-#article-list-row-2894539>.item>.list-title>small,
-#article-list-row-20046145>.item>.list-checkbox
+#article-list-row-2894539>.item>.list-title>small
 {
     display:none!important;
 }
@@ -960,8 +958,7 @@ font-weight: 700;
 #article-list-row-18678084>.item>.list-time,
 #article-list-row-18678084>.item>.list-title>div,
 #article-list-row-18678084>.item>.list-title>span,
-#article-list-row-18678084>.item>.list-title>small,
-#article-list-row-20046145>.item>.list-checkbox
+#article-list-row-18678084>.item>.list-title>small
 {
     display:none!important;
 }
@@ -999,8 +996,7 @@ font-weight: 700;
 #article-list-row-18073118>.item>.list-time,
 #article-list-row-18073118>.item>.list-title>div,
 #article-list-row-18073118>.item>.list-title>span,
-#article-list-row-18073118>.item>.list-title>small,
-#article-list-row-20046145>.item>.list-checkbox
+#article-list-row-18073118>.item>.list-title>small
 {
     display:none!important;
 }
@@ -1038,8 +1034,7 @@ font-weight: 700;
 #article-list-row-4362381>.item>.list-time,
 #article-list-row-4362381>.item>.list-title>div,
 #article-list-row-4362381>.item>.list-title>span,
-#article-list-row-4362381>.item>.list-title>small,
-#article-list-row-20046145>.item>.list-checkbox
+#article-list-row-4362381>.item>.list-title>small
 {
     display:none!important;
 }
@@ -1077,8 +1072,7 @@ font-weight: 700;
 #article-list-row-20046145>.item>.list-time,
 #article-list-row-20046145>.item>.list-title>div,
 #article-list-row-20046145>.item>.list-title>span,
-#article-list-row-20046145>.item>.list-title>small,
-#article-list-row-20046145>.item>.list-checkbox
+#article-list-row-20046145>.item>.list-title>small
 {
     display:none!important;
 }
@@ -1107,4 +1101,7 @@ font-weight: 700;
 }
 #article-list-row-20046145>.item>.list-title>a:hover:before {
     filter:brightness(1.1);
+}
+.notice>.item>.list-checkbox  {
+	display:none !important;
 }
