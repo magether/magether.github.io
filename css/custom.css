@@ -869,6 +869,7 @@ font-weight: 700;
 	position: relative;
 	float: left!important;
 	z-index: 11;
+	width: 100% !important;
 }
 #article-list {
     margin-top:0px;
