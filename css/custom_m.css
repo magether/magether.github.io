@@ -1,5 +1,11 @@
 @import "iconset.min.css";
 
+.frame div:nth-child(1) {
+    line-height: 0;
+}
+.frame ins:nth-child(1) {
+    height: auto !important;
+}
 .frame ins:nth-child(2) {
 	margin-left: -20px;
 	overflow-y: hidden;
