@@ -1,8 +1,8 @@
-.frame div:nth-child(1) {
-    line-height: 0;
+.frame>div:nth-child(1) {
+	line-height: 0;
 }
-.frame ins:nth-child(1) {
-    height: auto !important;
+.frame>div:nth-child(1) ins {
+	height: auto !important;
 }
 .frame ins:nth-child(2) {
 	margin-left: -20px;
