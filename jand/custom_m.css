@@ -1,7 +1,7 @@
 .frame>div:nth-child(1) {
 	line-height: 0;
 }
-.frame>div:nth-child(1) ins {
+.frame>div:nth-child(1)>ins {
 	height: auto !important;
 }
 .frame ins:nth-child(2) {
