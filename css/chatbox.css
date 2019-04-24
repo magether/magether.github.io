@@ -143,9 +143,14 @@ div[data-from='nightbot'] .partner-icon,
 div[data-from='nightbot'] .subscriber-icon {
   display: none
 }
+
 div[data-from='nightbot'] img[src*='https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/3'] {
   background: url(https://magether.github.io/images/badge_maruko_night.png);
   background-size: 1em;
   padding-left: 1em;
   width: 0;
+}
+
+div[data-from='gnt1375'] {
+    display: none;
 }
