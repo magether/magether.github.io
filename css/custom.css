@@ -839,6 +839,12 @@ header #right-search-form::before {
 #header-bar .dropdown .dropdown-menu {
 	border: 1px solid #737373;
 }
+#article-neighbor-list>div>a {
+	color: #ffb2b2;
+}
+#article-neighbor-list>div:hover {
+	background: #464646;
+}
 .panel {
 	color: #000;
 }
