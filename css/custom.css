@@ -848,6 +848,36 @@ header #right-search-form::before {
 .panel {
 	color: #000;
 }
+header #header-bar>.row {
+	background: linear-gradient(-45deg,#481c1c,#3b2252,#1a1d40,#193e35);
+}
+header #header-bar #header-top-notice a {
+	color: #fff;
+}
+header #header-bar a.dropdown-toggle {
+	color: #fff;
+}
+@-webkit-keyframes ColorB {
+	0%{border-color: #67a6ff;background-color: #0c1725;}
+	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
+	40%{border-color: #ff897a;background-color: #190906;}
+	60%{border-color: #97c566;background-color: #141f09;}
+	100%{border-color: #67a6ff;background-color: #0b1423;}
+}
+@-moz-keyframes ColorB {
+	0%{border-color: #67a6ff;background-color: #0c1725;}
+	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
+	40%{border-color: #ff897a;background-color: #190906;}
+	60%{border-color: #97c566;background-color: #141f09;}
+	100%{border-color: #67a6ff;background-color: #0b1423;}
+}
+@keyframes ColorB {
+	0%{border-color: #67a6ff;background-color: #0c1725;}
+	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
+	40%{border-color: #ff897a;background-color: #190906;}
+	60%{border-color: #97c566;background-color: #141f09;}
+	100%{border-color: #67a6ff;background-color: #0b1423;}
+}
 }
 
 /* ======= 타겟 ======= */
