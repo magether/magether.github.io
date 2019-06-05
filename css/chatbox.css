@@ -7,7 +7,7 @@ img[src*='//static-cdn.jtvnw.net/emoticons/v1/1711249/1.0'] {background:url('//s
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1142083/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/1142083/2.0')}
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1678861/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/1678861/2.0')}
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/952579/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/952579/2.0')}
-img[src*='//static-cdn.jtvnw.net/emoticons/v1/953392/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/953392/2.0')}
+img[src*='//static-cdn.jtvnw.net/emoticons/v1/953392/1.0'] {background:url('../images/rukoDEATHWINK.gif')}
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1534447/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/1534447/2.0')}
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/953151/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/953151/2.0')}
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1678862/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/1678862/2.0')}
@@ -145,7 +145,7 @@ div[data-from='nightbot'] .subscriber-icon {
 }
 
 div[data-from='nightbot'] img[src*='https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/3'] {
-  background: url(https://magether.github.io/images/badge_maruko_night.png);
+  background: url('../images/badge_maruko_night.png');
   background-size: 1em;
   padding-left: 1em;
   width: 0;
