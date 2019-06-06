@@ -46,7 +46,7 @@ header>#header-area {
 	width: 92%;
 	height: 45px;
 	margin: 10px 4%;
-	background: rgba(205, 236, 213, 0.95);
+	background: rgba(204, 234, 251, 0.95);
 	border-radius: 25px;
 	-webkit-backdrop-filter: saturate(180%) blur(5px);
 	padding: 5px 0;
@@ -77,7 +77,7 @@ header:after {
 	z-index: 3000;
 	top: 0;
 	left: 0;
-	background: linear-gradient(45deg,#ffa760,#ff7854,#ffd235,#ff7b0f);
+	background: linear-gradient(45deg,#2a4dfb,#5288ff,#67a6ff,#33b8e0);
 	background-size: 400% 400%;
 	border-radius: 25px;
 	-webkit-animation: Gradient 15s ease infinite;
@@ -280,29 +280,29 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #board-info {
 	height: 85px;
-	background: #c3e6c8;
-	border-top: 1px solid #359e5f;
-	border-bottom: 2px solid #359e5f;
+	background: #87bfff;
+	border-top: 1px solid #3b6fea;
+	border-bottom: 2px solid #3b6fea;
 }
 #board-info>h1 {
 	width: 100%;
 	height: 42px;
-	border-bottom: 1px solid #359e5f;
+	border-bottom: 1px solid #3b6fea;
 	overflow: hidden;
 	white-space: nowrap;
-	background: #e7f3ec;
+	background: #d7edfd;
 }
 #board-info>h1 .badge-success{
 	background-color: #3aa766;
 }
 #board-info>a.board-right-menu {
 	border-left: none;
-	color: #3aa766;
+	color: #0c4dec;
 	padding: 12px 15px;
 }
 #board-info>a.board-right-menu:hover {
-	background: #3aa766;
-	color: #c3d0e6;
+	background: #0c4dec;
+	color: #ffffff;
 }
 #board-info>h1>#board-info-profile-img {
 	display: none;
@@ -310,14 +310,15 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #board-info h1>a::before {
 	content: '';
 	position: absolute;
-	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/7fb1c2ca-ea1c-4a33-917d-5d9093e53783-profile_image-300x300.png) no-repeat;
-	background-size: 80px 80px;
+	background: url('./parkjand.jpg') no-repeat;
+	background-size: 70px 70px;
+	background-position: center;
 	left: 0;
 	width: 70px;
 	height: 70px;
 	margin: -2px 0 0 10px;
 	z-index: 100;
-	border: 1px solid #fff;
+	border: 3px solid #3b6fea;
 	border-top-left-radius: 15%;
 	border-top-right-radius: 50%;
 	border-bottom-right-radius: 50%;
@@ -346,7 +347,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	color: #ffd535 !important;
 }
 #board-info #viewers-area #viewers {
-	color: #3aa766;
+	color: #0c4dec;
 	font-size: 12px;
 	font-weight: 700;
 	vertical-align: 2px;
