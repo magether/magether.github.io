@@ -234,7 +234,7 @@ header #header-bar #header-top-notice a {
 	border-bottom: 3px solid;
 }
 #article-list #article-list-category > a.active,#article-list #article-list-category>a:hover {
-    background: #82bf60;
+    background: #8aca8f;
     color: #ffffff !important;
     border-bottom: 3px solid #5e9233;
 }
@@ -276,7 +276,7 @@ header #header-bar #header-top-notice a {
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
 	padding: 0 4px;
 	top: 2px;
-	color: #ff7777;
+	color: #8aca8f;
 }
 #article-content-wrapper>.header {
 	border-top: 3px solid #2a62e9;
@@ -367,7 +367,7 @@ header #header-bar #header-top-notice a {
 	color: #28c34c;
 }
 #article-list>.article-list-row>.item>.list-title>small.favo {
-	color: #98e282;
+	color: #5599ff;
 }
 #main .menu-wrapper>a>i.fa.fa-square {
 	color: #94ce9c;

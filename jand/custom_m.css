@@ -379,7 +379,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
     padding: 14px 17px;
 }
 #article-list #article-list-category > a.active,#article-list #article-list-category>a:hover {
-	background: #82bf60;
+	background: #8aca8f;
 	color: #ffffff !important;
 	border-bottom: 3px solid #349233;
 }
@@ -429,7 +429,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	white-space: nowrap;
 }
 #article-list>.article-list-row>.item>a.list-title>small.favo {
-	color: #98e282;
+	color: #5599ff;
 }
 .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
 	width: 35px;
@@ -439,7 +439,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
 	padding: 0 1px;
-	color: #ff7777;
+	color: #8aca8f;
 }
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
 	color: #36575f;
