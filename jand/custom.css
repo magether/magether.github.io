@@ -279,7 +279,11 @@ header #header-bar #header-top-notice a {
 	color: #ff7777;
 }
 #article-content-wrapper>.header {
-	border-top: 3px solid #44a324;
+	border-top: 3px solid #2a62e9;
+	background: #f4f7fa;
+}
+#article-content-wrapper>.footer {
+	background: #f4f7fa;
 }
 #article-reply-area > .header h5 {
 	color: #3379b7;
