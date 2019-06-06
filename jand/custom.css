@@ -175,7 +175,8 @@ header #header-bar #header-top-notice a {
 #board-info h1>a::before {
 	content: '';
     background: url('./parkjand.jpg') no-repeat;
-	background-size: 85px;
+	background-size: 77px;
+	background-position: center;
     width: 85px;
     height: 85px;
     position: absolute;
