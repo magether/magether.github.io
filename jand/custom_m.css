@@ -183,9 +183,6 @@ body {
 	width: 0;
 	opacity: 0;
 }
-nav#nav {
-	background: #f3ffe6 !important;
-}
 nav#nav>#nav-upper>#header-close-bar-link {
 	padding: 11px 16px 8px;
 }
