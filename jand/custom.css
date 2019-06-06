@@ -1,13 +1,13 @@
 ::selection {
-	background:#58dc89;
+	background:#3562f3;
 	color: #ffffff;
 }
 ::-moz-selection {
-	background:#58dc89;
+	background:#3562f3;
 	color: #ffffff;
 }
 ::-webkit-selection {
-	background:#58dc89;
+	background:#3562f3;
 	color: #ffffff;
 }
 
@@ -26,7 +26,7 @@ body, html {
 body {
 	background: none;
 	min-width: 1140px;
-	background: linear-gradient(135deg,#cee6d2,#edfff9);
+	background: linear-gradient(135deg,#cceafb,#eaf0ff);
 }
 /* body::before {
 	content: '';
@@ -74,7 +74,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background: #333333;
 }
 header #header-bar>.row {
-	background: linear-gradient(45deg, #ffa760, #ff7854, #ffd235, #ff7b0f);
+	background: linear-gradient(45deg,#2a4dfb,#5288ff,#67a6ff,#33b8e0);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -143,6 +143,13 @@ header #right-search-form>#right-search-btn {
 header #header-bar #header-menu-right {
 	white-space: nowrap;
 }
+header #header-bar a.dropdown-toggle {
+	color: #fff;
+}
+header #header-bar #header-top-notice a {
+    color: #fff;
+}
+
 /* ======= 게시판상단 ======= */
 
 #board-info{
@@ -160,15 +167,15 @@ header #header-bar #header-menu-right {
 	transition: all 150ms ease-in-out;
 }
 #board-info h1>a:hover {
-	color: #3aa766;
+	color: #3b6fea;
 }
 #board-info>h1 .badge-success {
 	background-color: #3aa766;
 }
 #board-info h1>a::before {
 	content: '';
-    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/7fb1c2ca-ea1c-4a33-917d-5d9093e53783-profile_image-300x300.png) no-repeat;
-	background-size: 92px;
+    background: url('./parkjand.jpg') no-repeat;
+	background-size: 85px;
     width: 85px;
     height: 85px;
     position: absolute;
@@ -176,7 +183,7 @@ header #header-bar #header-menu-right {
     top: -8px;
     margin-top: 0;
     z-index: 100;
-    border: 5px solid #fff;
+    border: 5px solid #3b6fea;
     border-top-left-radius: 15%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -205,10 +212,10 @@ header #header-bar #header-menu-right {
 	display: none;
 }
 #board-info h1 {
-    padding-left:65px;
+    padding-left:70px;
 }
 #board-info #board-info-bottom {
-    padding-left:65px;
+    padding-left:70px;
 }
 
 /* ======= 게시글 ======= */
