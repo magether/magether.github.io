@@ -210,15 +210,15 @@ nav#nav > #nav-upper #noteDropdownContainer>a {
 	line-height: 37px;
 }
 nav#nav>.nav-header {
-	background: #c3e6c8;
-	color: #12562c;
+	background: #1355e5;
+	color: #ffffff;
 	font-size: 17px;
 	font-weight: 300;
-	border-top: 1px solid #359e5e;
-	border-bottom: 2px solid #359e5e;
+	border-top: 1px solid #0f44b8;
+	border-bottom: 2px solid #0f44b8;
 }
 nav#nav>.nav-header>a {
-	color: #12562c;
+	color: #ffffff;
 	font-size: 17px;
 	font-weight: 100;
 }
@@ -227,11 +227,12 @@ nav#nav>.nav-header>a {
 }
 nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	color: #ffffff;
-	background-color: #3aa766;
+	background-color: #2b60e3;
+	border-radius: 8px;
 }
 #nav .dropdown .dropdown-menu {
 	display: block !important;
-	background-color: #333333;
+	background-color: #0f2762;
 	transition: all 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
 	transform-origin: top left;
 	transform: scale(0);
@@ -260,7 +261,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
 	color: #333333 !important;
-	background: linear-gradient(45deg, #caf0a7, #4cda99);
+	background: linear-gradient(to right, #9bcaf4, #3b72eb)
 }
 .input-group-btn .dropdown-menu {
 	display: block !important;
@@ -293,7 +294,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	background: #d7edfd;
 }
 #board-info>h1 .badge-success{
-	background-color: #3aa766;
+	background-color: #3b6fea;
 }
 #board-info>a.board-right-menu {
 	border-left: none;
@@ -347,7 +348,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	color: #ffd535 !important;
 }
 #board-info #viewers-area #viewers {
-	color: #0c4dec;
+	color: #3b6fea;
 	font-size: 12px;
 	font-weight: 700;
 	vertical-align: 2px;

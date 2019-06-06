@@ -107,7 +107,7 @@ header #header-bar>.row {
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
 	color: #333333;
-	background: linear-gradient(45deg, #caf0a7, #4cda99);
+	background: linear-gradient(to right, #9bcaf4, #3b72eb);
 }
 .input-group-btn .dropdown-menu {
 	display: block !important;
