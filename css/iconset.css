@@ -29,6 +29,27 @@ img[src*="https://static-cdn.jtvnw.net/badges/v1/bc612db1-c089-480e-9cbf-e52582c
 	height:18px;
 	padding-left:18px;
 }
+img[src*="https://static-cdn.jtvnw.net/badges/v1/0b73c9ce-3025-430f-aad3-7ee6255ee4f1/1"] {
+	background:url('https://static-cdn.jtvnw.net/badges/v1/0b73c9ce-3025-430f-aad3-7ee6255ee4f1/2');
+	background-size:18px;
+	width:18px;
+	height:18px;
+	padding-left:18px;
+}
+img[src*="https://static-cdn.jtvnw.net/badges/v1/d9cd4583-6802-4c03-9130-ec777d520d35/1"] {
+	background:url('https://static-cdn.jtvnw.net/badges/v1/d9cd4583-6802-4c03-9130-ec777d520d35/2');
+	background-size:18px;
+	width:18px;
+	height:18px;
+	padding-left:18px;
+}
+img[src*="https://static-cdn.jtvnw.net/badges/v1/244ddb81-d6c4-4a2c-b025-bb28fda6b6fb/1"] {
+	background:url('https://static-cdn.jtvnw.net/badges/v1/244ddb81-d6c4-4a2c-b025-bb28fda6b6fb/2');
+	background-size:18px;
+	width:18px;
+	height:18px;
+	padding-left:18px;
+}
 img[src*='https://static-cdn.jtvnw.net/badges/v1/5c1f1b00-ccfd-4653-a521-3a94655dd6d8/1'] {
 	background:url('https://static-cdn.jtvnw.net/badges/v1/5c1f1b00-ccfd-4653-a521-3a94655dd6d8/2');
 	background-size:18px;
