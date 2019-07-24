@@ -754,13 +754,6 @@ body {
 #main #main-content>div.frame div {
 	border-color: #000000;
 }
-#main #main-content>div.frame>div:nth-child(7) {
-	background: none !important;
-}
-#main #main-content>div.frame>div:nth-child(7) div {
-	background: none !important;
-	border: none !important;
-}
 #article-content-wrapper>.header {
 	border-color: #ff7777 !important;
 	background: #000000;
@@ -876,6 +869,12 @@ header #header-bar a.dropdown-toggle {
 	60%{border-color: #97c566;background-color: #141f09;}
 	100%{border-color: #67a6ff;background-color: #0b1423;}
 }
+}
+.trc_tl>div {
+    background:0 0!important;
+}
+.trc_tl * {
+    color:#00000045 !important;
 }
 
 /* ======= 타겟 ======= */
