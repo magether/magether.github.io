@@ -876,6 +876,9 @@ header #header-bar a.dropdown-toggle {
 .trc_tl * {
     color:#00000045 !important;
 }
+.trk-img {
+	float: left;
+}
 
 /* ======= 타겟 ======= */
 
