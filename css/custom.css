@@ -160,14 +160,16 @@ header #header-bar #header-menu-right {
 #board-info h1>a::before {
 	content: '';
 	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/5f77e5a6-c738-4812-837c-df8651adcb00-profile_image-300x300.png) no-repeat;
-	background-size: 100px 100px;
-	width: 100px;
-	height: 100px;
+	background-size: 90px 90px;
+	width: 90px;
+	height: 90px;
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: 4px;
+	top: 6px;
 	margin-top: -21px;
 	z-index: 100;
+	border-radius: 50%;
+	border: 2px solid #c3a9e4;
 }
 #board-info>h1>a.badge-live::before {
 	display:none;
@@ -192,10 +194,10 @@ header #header-bar #header-menu-right {
 	display: none;
 }
 #board-info h1 {
-	padding-left:65px;
+	padding-left:70px;
 }
 #board-info #board-info-bottom {
-	padding-left:65px;
+	padding-left:70px;
 }
 
 /* ======= 게시글 ======= */
