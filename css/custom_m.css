@@ -305,13 +305,15 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #board-info h1>a::before {
 	content: '';
     position: absolute;
-    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/966edd9d-b459-4705-9b7f-3cc2de6fa18d-profile_image-300x300.png) no-repeat;
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/5f77e5a6-c738-4812-837c-df8651adcb00-profile_image-300x300.png) no-repeat;
     background-size: 80px 80px;
     left: 0;
     width: 80px;
     height: 80px;
     margin: -7px 0 0 7px;
     z-index: 100;
+    border-radius: 50%;
+    border: 1px solid #a7a7a7;
 }
 #board-info>h1>a {
 	margin-left: 80px;
