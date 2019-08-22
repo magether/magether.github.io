@@ -15,10 +15,11 @@
 
 header .row>div:nth-child(1)>a {
 	display: block;
-	width: 180px;
-	height: 91px;
-	margin-top: 25px;
-	background: url('../images/magether.svg') no-repeat;
+	width: 214px;
+	height: 109px;
+	margin-top: 16px;
+	margin-bottom: -22px;
+	background: url('../images/magether2.svg') no-repeat;
 	transition: all 500ms ease-in-out;
 }
 body,html {
@@ -117,12 +118,12 @@ header #header-bar>.row {
 	color: #000000 !important;
 }
 header #right-search-form {
-	padding: 72px 0 0;
+	padding: 55px 0 0;
 }
 header #right-search-form::before {
 	position: absolute;
 	content: url('https://static-cdn.jtvnw.net/badges/v1/20e9ecf1-a4fe-42c3-a743-9d6a43b8825a/2');
-	top: 39px;
+	top: 22px;
 	margin-left: 10px;
 	z-index: 1000;
 }
@@ -194,10 +195,13 @@ header #header-bar #header-menu-right {
 	display: none;
 }
 #board-info h1 {
-	padding-left:70px;
+	padding-left: 70px;
 }
 #board-info #board-info-bottom {
-	padding-left:70px;
+	padding-left: 70px;
+}
+#header-menu-left, #header-menu-right {
+	border: none !important;
 }
 
 /* ======= 게시글 ======= */
