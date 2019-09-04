@@ -19,6 +19,7 @@ header .row>div:nth-child(1)>a {
 	height: 109px;
 	margin-top: 16px;
 	margin-bottom: -22px;
+	margin-left: -8px;
 	background: url('../images/magether2.svg') no-repeat;
 	transition: all 500ms ease-in-out;
 }
@@ -928,6 +929,7 @@ font-weight: 700;
 	float: left!important;
 	z-index: 11;
 	width: 100% !important;
+	height: auto !important;
 }
 #article-list {
 	margin-top:0px;
