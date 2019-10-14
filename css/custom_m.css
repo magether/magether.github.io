@@ -330,7 +330,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	display: block;
 	width: 19px;
 	height: 19px;
-	background: url('https://static-cdn.jtvnw.net/badges/v1/0b73c9ce-3025-430f-aad3-7ee6255ee4f1/2');
+	background: url('https://static-cdn.jtvnw.net/badges/v1/244ddb81-d6c4-4a2c-b025-bb28fda6b6fb/2');
 	background-size: 19px 19px;
 	background-repeat: no-repeat;
 }
@@ -349,13 +349,16 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #board-info #viewers-area #viewers::after {
 	content: '명 빼꼼';
 }
+#board-info #score-area {
+	display: none;
+}
 #article-info {
 	border-bottom: 3px solid #ff7777;
 	padding: 18px 14px 12px;
 }
 #article-list {
 	line-height: 14px;
-	background-color: #fff6f5;
+	background-color: #e3eef5;
 }
 #article-list #article-list-category {
 	border-top: 0px;
@@ -481,8 +484,8 @@ footer {
     animation: ColorB 5s infinite;
 }
 #article-list>.article-list-row.notice {
-	background-color: #fff6f5;
-	border-top: 1px solid #ffd5d0;
+	background-color: #e3eef5;
+	border-top: 1px solid #71abd0;
 }
 #article-info>h2 {
 	font-weight: 700;

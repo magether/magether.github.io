@@ -154,7 +154,7 @@ header #header-bar #header-menu-right {
 	transition: all 150ms ease-in-out;
 }
 #board-info h1>a:hover {
-	color:#ab5be4;
+	color:#71acd1;
 }
 #board-info>h1 .badge-success {
 	background-color: #5e7fb5;
@@ -162,9 +162,9 @@ header #header-bar #header-menu-right {
 #board-info h1>a::before {
 	content: '';
 	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/604fa814-6b0d-4e50-bf36-f63906fa3df3-profile_image-300x300.png) no-repeat;
-	background-size: 80px 80px;
-	width: 80px;
-	height: 80px;
+	background-size: 83px 83px;
+	width: 83px;
+	height: 83px;
 	position: absolute;
 	left: 11px;
 	top: 15px;
@@ -178,7 +178,7 @@ header #header-bar #header-menu-right {
 }
 #board-info #viewers-area .fa-user::before {
 	color: rgba(10,59,84,0);
-	content: url('https://static-cdn.jtvnw.net/badges/v1/0b73c9ce-3025-430f-aad3-7ee6255ee4f1/1');
+	content: url('https://static-cdn.jtvnw.net/badges/v1/244ddb81-d6c4-4a2c-b025-bb28fda6b6fb/1');
 }
 #board-info #viewers-area #viewers {
 	color: #3d65a5;
@@ -203,6 +203,9 @@ header #header-bar #header-menu-right {
 }
 #header-menu-left, #header-menu-right {
 	border: none !important;
+}
+#board-info #score-area {
+	display: none;
 }
 
 /* ======= 게시글 ======= */
@@ -320,8 +323,8 @@ span.a-badge i.fa.fa-star {
 	animation: ColorB 5s infinite;
 }
 #article-list>.article-list-row.notice {
-	background-color: #fff6f5;
-	border-top: 1px solid #ffd5d0;
+	background-color: #e3eef5;
+	border-top: 1px solid #71abd0;
 }
 #article-list>.article-list-row.hot>.item>.list-header>strong,
 #article-list>.article-list-row.hot>.item>.list-header>b,
