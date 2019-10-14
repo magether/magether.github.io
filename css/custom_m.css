@@ -275,7 +275,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 }
 #board-info {
 	height: 85px;
-    background: #c3d0e6;
+    background: #b1d7ef;
     border-top: 1px solid #759ad6;
     border-bottom: 2px solid #759ad6;
 }
@@ -285,7 +285,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 	border-bottom: 1px solid #759ad6;
 	overflow: hidden;
 	white-space: nowrap;
-    background: #dfe4ec;
+    background: #dce9f1;
 }
 #board-info>h1 .badge-success{
 	background-color: #5e7fb5;
@@ -305,15 +305,15 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #board-info h1>a::before {
 	content: '';
     position: absolute;
-    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/5f77e5a6-c738-4812-837c-df8651adcb00-profile_image-300x300.png) no-repeat;
-    background-size: 80px 80px;
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/604fa814-6b0d-4e50-bf36-f63906fa3df3-profile_image-300x300.png) no-repeat;
+    background-size: 70px 70px;
     left: 0;
-    width: 80px;
-    height: 80px;
-    margin: -7px 0 0 7px;
+    width: 70px;
+    height: 70px;
+    margin: -2px 0 0 12px;
     z-index: 100;
     border-radius: 50%;
-    border: 1px solid #a7a7a7;
+    border: 0px solid #a7a7a7;
 }
 #board-info>h1>a {
 	margin-left: 80px;

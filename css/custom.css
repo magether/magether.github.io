@@ -161,17 +161,17 @@ header #header-bar #header-menu-right {
 }
 #board-info h1>a::before {
 	content: '';
-	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/5f77e5a6-c738-4812-837c-df8651adcb00-profile_image-300x300.png) no-repeat;
-	background-size: 90px 90px;
-	width: 90px;
-	height: 90px;
+	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/604fa814-6b0d-4e50-bf36-f63906fa3df3-profile_image-300x300.png) no-repeat;
+	background-size: 80px 80px;
+	width: 80px;
+	height: 80px;
 	position: absolute;
-	left: 4px;
-	top: 6px;
+	left: 11px;
+	top: 15px;
 	margin-top: -21px;
 	z-index: 100;
 	border-radius: 50%;
-	border: 2px solid #c3a9e4;
+	border: 0px solid #71acd1;
 }
 #board-info>h1>a.badge-live::before {
 	display:none;
