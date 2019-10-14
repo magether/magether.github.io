@@ -323,7 +323,7 @@ span.a-badge i.fa.fa-star {
 	animation: ColorB 5s infinite;
 }
 #article-list>.article-list-row.notice {
-	background-color: #e3eef5;
+	background-color: #edf5fb;
 	border-top: 1px solid #71abd0;
 }
 #article-list>.article-list-row.hot>.item>.list-header>strong,

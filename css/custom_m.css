@@ -484,7 +484,7 @@ footer {
     animation: ColorB 5s infinite;
 }
 #article-list>.article-list-row.notice {
-	background-color: #e3eef5;
+	background-color: #edf5fb;
 	border-top: 1px solid #71abd0;
 }
 #article-info>h2 {
