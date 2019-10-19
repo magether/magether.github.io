@@ -679,6 +679,27 @@ span.a-badge i.fa.fa-star {
 	60%{border-color: #97c566;background-color: #f1ffe2;}
 	100%{border-color: #67a6ff;background-color: #e7f1ff;}
 }
+@-webkit-keyframes ColorD {
+	0%{color: #67a6ff;}
+	20%{color: #ef6ee5;}
+	40%{color: #ff897a;}
+	60%{color: #97c566;}
+	100%{color: #67a6ff;}
+}
+@-moz-keyframes ColorD {
+	0%{color: #67a6ff;}
+	20%{color: #ef6ee5;}
+	40%{color: #ff897a;}
+	60%{color: #97c566;}
+	100%{color: #67a6ff;}
+}
+@keyframes ColorD {
+	0%{color: #67a6ff;}
+	20%{color: #ef6ee5;}
+	40%{color: #ff897a;}
+	60%{color: #97c566;}
+	100%{color: #67a6ff;}
+}
 @-webkit-keyframes ColorC {
 	0%{border-color: #67a6ff;background-color: #0c1725;}
 	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
@@ -891,6 +912,20 @@ header #header-bar a.dropdown-toggle {
     -webkit-animation: ColorC 5s infinite;
     -moz-animation: ColorC 5s infinite;
     animation: ColorC 5s infinite;
+}
+#article-list>.article-list-row.hot>.item>.list-header>strong,
+#article-list>.article-list-row.hot>.item>.list-header>b,
+#article-list>.article-list-row.hot>.item>.list-title>.list-category>span,
+#article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span,
+#article-list>.article-list-row.hot>.item>.list-title>.a-badge>i.fa.fa-commenting-o,
+#article-list>.article-list-row.hot>.item>.list-title>small.comment-count,
+#article-list>.article-list-row.hot>.item>.list-time,
+#article-list>.article-list-row.hot>.item>.list-title>a,
+#article-list>.article-list-row.hot>.item>.list-title>a:visited {
+	color: #448bff;
+	-webkit-animation: ColorD 5s infinite;
+	-moz-animation: ColorD 5s infinite;
+	animation: ColorD 5s infinite; 
 }
 }
 .trc_tl>div {
