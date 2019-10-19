@@ -697,7 +697,11 @@ body {
 	background: #333333;
 }
 #article-list>.article-list-row.notice {
-	background: #402c2c;
+	background:#0e1f29;
+	border-color:#000;
+}
+#article-list>.article-list-row>.item>.list-header>strong, #article-list>.article-list-row>.item>.list-header>b {
+	color: #ccc;
 }
 #article-list>.article-list-row>.item>.list-title>a {
 	color: #ffffff !important;
@@ -708,6 +712,9 @@ body {
 #main .menu-wrapper,#main #main-content>div.frame {
 	border-color: #737373;
 	border-radius: 5px;
+}
+#board-info h1>a::before {
+	background:url(../images/maruko_darkmode.png) 0 0/83px 83px no-repeat;
 }
 #board-info h1>a {
 	color: #ffffff;
@@ -850,7 +857,8 @@ header #right-search-form::before {
 	color: #000;
 }
 header #header-bar>.row {
-	background: linear-gradient(-45deg,#481c1c,#3b2252,#1a1d40,#193e35);
+	background: linear-gradient(-45deg,#4a2a41,#362c46,#293842,#1a332d);
+	background-size: 400% 400%;
 }
 header #header-bar #header-top-notice a {
 	color: #fff;
