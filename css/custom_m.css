@@ -1305,6 +1305,10 @@ nav#nav>.nav-header {
 a.custom-badge-link {
     border-color:#000;
 }
+#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
+	background-color: #28231c !important;
+	border-color: #ffd291 !important;
+}
 #article-list>.article-list-row.hot {
     -webkit-animation: ColorC 5s infinite;
     -moz-animation: ColorC 5s infinite;
