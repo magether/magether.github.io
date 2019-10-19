@@ -1309,6 +1309,12 @@ a.custom-badge-link {
 	background-color: #28231c !important;
 	border-color: #ffd291 !important;
 }
+#article-list>.article-list-row>.item>.list-header.v0>span {
+    color: #000;
+}
+#article-list>.article-list-row:hover>.item>.list-header.v0>span {
+    color: #151b1e;
+}
 #article-list>.article-list-row.hot {
     -webkit-animation: ColorC 5s infinite;
     -moz-animation: ColorC 5s infinite;
