@@ -803,6 +803,27 @@ footer {
 	60%{border-color: #97c566;background-color: #f1ffe2;}
 	100%{border-color: #67a6ff;background-color: #e7f1ff;}
 }
+@-webkit-keyframes ColorC {
+	0%{border-color: #67a6ff;background-color: #0c1725;}
+	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
+	40%{border-color: #ff897a;background-color: #190906;}
+	60%{border-color: #97c566;background-color: #141f09;}
+	100%{border-color: #67a6ff;background-color: #0b1423;}
+}
+@-moz-keyframes ColorC {
+	0%{border-color: #67a6ff;background-color: #0c1725;}
+	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
+	40%{border-color: #ff897a;background-color: #190906;}
+	60%{border-color: #97c566;background-color: #141f09;}
+	100%{border-color: #67a6ff;background-color: #0b1423;}
+}
+@keyframes ColorC {
+	0%{border-color: #67a6ff;background-color: #0c1725;}
+	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
+	40%{border-color: #ff897a;background-color: #190906;}
+	60%{border-color: #97c566;background-color: #141f09;}
+	100%{border-color: #67a6ff;background-color: #0b1423;}
+}
 @media (max-width: 380px) {
 	#article-list > .article-list-row > .item > a.list-title > .title-value {
 		max-width: 180px;
@@ -1263,25 +1284,10 @@ nav#nav>.nav-header {
 a.custom-badge-link {
     border-color:#000;
 }
-@-webkit-keyframes ColorB {
-	0%{border-color: #67a6ff;background-color: #0c1725;}
-	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
-	40%{border-color: #ff897a;background-color: #190906;}
-	60%{border-color: #97c566;background-color: #141f09;}
-	100%{border-color: #67a6ff;background-color: #0b1423;}
+#article-list>.article-list-row.hot {
+    -webkit-animation: ColorC 5s infinite;
+    -moz-animation: ColorC 5s infinite;
+    animation: ColorC 5s infinite;
 }
-@-moz-keyframes ColorB {
-	0%{border-color: #67a6ff;background-color: #0c1725;}
-	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
-	40%{border-color: #ff897a;background-color: #190906;}
-	60%{border-color: #97c566;background-color: #141f09;}
-	100%{border-color: #67a6ff;background-color: #0b1423;}
-}
-@keyframes ColorB {
-	0%{border-color: #67a6ff;background-color: #0c1725;}
-	20%{border-color: #ef6ee5;background-color: #1d0a1b;}
-	40%{border-color: #ff897a;background-color: #190906;}
-	60%{border-color: #97c566;background-color: #141f09;}
-	100%{border-color: #67a6ff;background-color: #0b1423;}
-}
+
 }
