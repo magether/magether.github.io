@@ -1202,10 +1202,10 @@ header>#header-area>a>h1 {
 	background:#000;
 }
 #article-list>.article-list-row:hover {
-	background:#292929;
+	background:#151b1e;
 }
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
-	border-color:#2f2f2f;
+	border-color:#1c1c1c;
 }
 #article-list>.article-list-row>.item>a.list-title {
 	color:#fff !important;
