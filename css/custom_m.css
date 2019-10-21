@@ -1315,6 +1315,16 @@ a.custom-badge-link {
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
     color: #151b1e;
 }
+#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
+	background-color: #28231c !important;
+	border-color: #ffd291 !important;
+}
+#article-reply-area #reply-best-area div.reply-content {
+	background: #362a2b !important;
+}
+#article-reply-area #reply-best-area>div {
+	border-color: #ff7777 !important;
+}
 #article-list>.article-list-row.hot {
     -webkit-animation: ColorC 5s infinite;
     -moz-animation: ColorC 5s infinite;
