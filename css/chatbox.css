@@ -62,6 +62,16 @@ img[src*='//static-cdn.jtvnw.net/emoticons/v1/69/1.0'] {background:url('../image
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/160392/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/160392/2.0')}
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/425618/1.0'] {background:url('//static-cdn.jtvnw.net/emoticons/v1/425618/2.0')}
 
+img[src*='//static-cdn.jtvnw.net/badges/v1/73b5c3fb-24f9-4a82-a852-2f475b59411c/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/4a99d357-d110-4c06-b8fe-1069ba876d13/3')}
+img[src*='//static-cdn.jtvnw.net/badges/v1/09d93036-e7ce-431c-9a9e-7044297133f2/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/d2633c2c-ca79-4603-8df8-0dbd23908f97/3')}
+img[src*='//static-cdn.jtvnw.net/badges/v1/0d85a29e-79ad-4c63-a285-3acd2c66f2ba/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/fded9f8a-310f-409c-a150-2b36cae0a790/3')}
+img[src*='//static-cdn.jtvnw.net/badges/v1/57cd97fc-3e9e-4c6d-9d41-60147137234e/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/e1bbcfba-4dd8-47b6-89ec-1f1d33b51e05/3')}
+img[src*='//static-cdn.jtvnw.net/badges/v1/68af213b-a771-4124-b6e3-9bb6d98aa732/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/1a7fc8a2-88c7-4f9e-922b-2c7a9201edc8/3')}
+img[src*='//static-cdn.jtvnw.net/badges/v1/64ca5920-c663-4bd8-bfb1-751b4caea2dd/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/185dad3d-d185-4444-8312-30c7c6029fda/3')}
+img[src*='//static-cdn.jtvnw.net/badges/v1/62310ba7-9916-4235-9eba-40110d67f85d/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/6cb6a487-815d-45a4-812e-9d877fa9a1fe/3')}
+img[src*='//static-cdn.jtvnw.net/badges/v1/ce491fa4-b24f-4f3b-b6ff-44b080202792/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/6f01d9e6-e408-401d-8d9f-08722d112be0/3')}
+img[src*='//static-cdn.jtvnw.net/badges/v1/96f0540f-aa63-49e1-a8b3-259ece3bd098/3'] {background:url('//static-cdn.jtvnw.net/badges/v1/0b3cc3f0-8ee8-4270-b225-d8ee6b425347/3')}
+
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/425596/1.0'],
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/1671304/1.0'],
 img[src*='//static-cdn.jtvnw.net/emoticons/v1/132566/1.0'],
@@ -146,6 +156,20 @@ div[data-from='nightbot'] .subscriber-icon {
 
 div[data-from='nightbot'] img[src*='https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/3'] {
   background: url('../images/badge_maruko_night.png');
+  background-size: 1em;
+  padding-left: 1em;
+  width: 0;
+}
+img[src*='//static-cdn.jtvnw.net/badges/v1/73b5c3fb-24f9-4a82-a852-2f475b59411c/3'],
+img[src*='//static-cdn.jtvnw.net/badges/v1/09d93036-e7ce-431c-9a9e-7044297133f2/3'],
+img[src*='//static-cdn.jtvnw.net/badges/v1/0d85a29e-79ad-4c63-a285-3acd2c66f2ba/3'],
+img[src*='//static-cdn.jtvnw.net/badges/v1/57cd97fc-3e9e-4c6d-9d41-60147137234e/3'],
+img[src*='//static-cdn.jtvnw.net/badges/v1/68af213b-a771-4124-b6e3-9bb6d98aa732/3'],
+img[src*='//static-cdn.jtvnw.net/badges/v1/64ca5920-c663-4bd8-bfb1-751b4caea2dd/3'],
+img[src*='//static-cdn.jtvnw.net/badges/v1/62310ba7-9916-4235-9eba-40110d67f85d/3'],
+img[src*='//static-cdn.jtvnw.net/badges/v1/ce491fa4-b24f-4f3b-b6ff-44b080202792/3'],
+img[src*='//static-cdn.jtvnw.net/badges/v1/96f0540f-aa63-49e1-a8b3-259ece3bd098/3']
+{
   background-size: 1em;
   padding-left: 1em;
   width: 0;
