@@ -27,7 +27,7 @@ header.nav-up {
 	top: 0;
 }
 header>#header-area>a>h1 {
-	background-image: url('https://magether.github.io/images/magether_m1.png');
+	background-image: url('../images/magether_m1.png');
 	background-size: 91px 32px;
 	background-repeat: no-repeat;
 }
@@ -58,7 +58,7 @@ header:before {
 	left: 0;
 	height: 65px;
 	width: 100%;
-	background-image: url('https://magether.github.io/images/magether_m2.png');
+	background-image: url('../images/magether_m2.png');
 	background-size: 130px 65px;
 	background-repeat: no-repeat;
 	background-position: center top;
