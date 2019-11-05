@@ -10,7 +10,7 @@
 	background:#ff7777;
 	color: #ffffff;
 }
-.test{display: none;}
+
 /* ======= 메인 ======= */
 
 header .row>div:nth-child(1)>a {
@@ -190,7 +190,7 @@ header #header-bar #header-menu-right {
 	content: '마빻단 ';
 }
 #board-info #viewers-area #viewers::after {
-	content: '명 빼꼼';
+	content: '명';
 }
 #board-info #board-info-profile-img {
 	display: none;
