@@ -190,7 +190,7 @@ header #header-bar #header-menu-right {
 	content: '마빻단 ';
 }
 #board-info #viewers-area #viewers::after {
-	content: '명';
+	content: '명 빼꼼';
 }
 #board-info #board-info-profile-img {
 	display: none;
