@@ -1342,4 +1342,7 @@ a.custom-badge-link {
 	-moz-animation: ColorD 5s infinite; 
 	animation: ColorD 5s infinite; 
 }
+#article-poll-form {
+	color: #000 !important;
+}
 }
