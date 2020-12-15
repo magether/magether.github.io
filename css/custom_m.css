@@ -305,7 +305,7 @@ nav#nav > .nav-menu-area a:hover, nav#nav > .nav-menu-area a.active {
 #board-info h1>a::before {
 	content: '';
     position: absolute;
-    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/604fa814-6b0d-4e50-bf36-f63906fa3df3-profile_image-300x300.png) no-repeat;
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/8c0f8477-c9ef-4bb4-ac67-dd1b26507ba4-profile_image-300x300.png) no-repeat;
     background-size: 70px 70px;
     left: 0;
     width: 70px;
@@ -1158,9 +1158,9 @@ html,body,#header-top-notice,.frame>div:nth-child(1),.frame>div:nth-child(5),.pa
 #board-info>h1>a {
 	color:#fff;
 }
-#board-info h1>a::before {
+/* #board-info h1>a::before {
 	background:url(../images/maruko_darkmode.png) 0 0/70px 70px no-repeat;
-}
+} */
 header>#header-area {
 	background:rgb(36, 39, 41, 0.85);
 }
