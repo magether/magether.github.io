@@ -161,7 +161,7 @@ header #header-bar #header-menu-right {
 }
 #board-info h1>a::before {
 	content: '';
-	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/604fa814-6b0d-4e50-bf36-f63906fa3df3-profile_image-300x300.png) no-repeat;
+	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/8c0f8477-c9ef-4bb4-ac67-dd1b26507ba4-profile_image-300x300.png) no-repeat;
 	background-size: 83px 83px;
 	width: 83px;
 	height: 83px;
@@ -755,9 +755,9 @@ body {
 	border-color: #737373;
 	border-radius: 5px;
 }
-#board-info h1>a::before {
+/* #board-info h1>a::before {
 	background:url(../images/maruko_darkmode.png) 0 0/83px 83px no-repeat;
-}
+} */
 #board-info h1>a {
 	color: #ffffff;
 }
