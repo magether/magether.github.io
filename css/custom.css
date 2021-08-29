@@ -819,6 +819,7 @@ body {
 }
 header #right-search-form>input[type=text] {
 	background: #000000;
+	color: #ffffff;
 }
 #article-content-wrapper>.footer {
 	background: #000000 !important;
@@ -927,6 +928,8 @@ header #header-bar a.dropdown-toggle {
 	-moz-animation: ColorD 5s infinite;
 	animation: ColorD 5s infinite; 
 }
+div[style='background:#efefef;padding:10px 8px;']{background:rgba(0,0,0,0)!important}
+div[style='background:#fff;padding:10px 0;']{background:rgba(0,0,0,0)!important}
 }
 .trc_tl>div {
     background:0 0!important;
