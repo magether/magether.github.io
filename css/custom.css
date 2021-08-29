@@ -903,10 +903,16 @@ header #header-bar>.row {
 	background: linear-gradient(-45deg,#4a2a41,#362c46,#293842,#1a332d);
 	background-size: 400% 400%;
 }
-header #header-bar #header-top-notice a {
+header #header-bar a.dropdown-toggle {
 	color: #fff;
 }
-header #header-bar a.dropdown-toggle {
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #000;
+}
+header #header-bar #header-top-notice {
+	color: #fff;
+}
+header #header-bar #header-top-notice a {
 	color: #fff;
 }
 #article-list>.article-list-row.hot {
@@ -928,6 +934,7 @@ header #header-bar a.dropdown-toggle {
 	-moz-animation: ColorD 5s infinite;
 	animation: ColorD 5s infinite; 
 }
+
 div[style='background:#efefef;padding:10px 8px;']{background:rgba(0,0,0,0)!important}
 div[style='background:#fff;padding:10px 0;']{background:rgba(0,0,0,0)!important}
 }
