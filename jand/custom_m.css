@@ -165,7 +165,7 @@ body {
 	display: none;
 }
 nav#nav {
-	background: #ffffff !important;
+	/* background: #ffffff !important; */
 }
 #nav {
 	transition: all 300ms ease-in-out;
